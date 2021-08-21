@@ -1,0 +1,10 @@
+.header {
+  opacity: 0.15;
+  height: 100px;
+  font-size: 70px; 
+  text-align: center;  
+}
+
+.title {
+    cursor: pointer;
+}
