@@ -70,6 +70,16 @@ const Quiz = ({ name, score, setScore }) => {
               value={question.options[2][1]}
             />
             <label>{question.options[2][0]}</label>
+            <br />
+
+            <input
+              type="radio"
+              id="d"
+              name={currentQuestion}
+              value={question.options[3][1]}
+            />
+            <label>{question.options[3][0]}</label>
+            <br />
           </div>
         </div>
       ))}
