@@ -31,7 +31,7 @@ const Home = ({name, setName}) => {
             /> 
 
             <button className='startButton' onClick={handleSubmit}>
-                Start Quiz
+                Drive Ahead
             </button>                       
         </div>
     );

@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return <div className="header">
-        <Link to="/" className="title">QUIZ HUB</Link>
+        <Link to="/" className="title">Head To The Aim</Link>
     </div>;
 };
 
