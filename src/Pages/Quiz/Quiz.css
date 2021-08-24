@@ -1,12 +1,20 @@
+.wrapper {
+    margin: 0;
+    background-color: gainsboro;
+    background-image: url(https://st2.depositphotos.com/1653005/7537/i/950/depositphotos_75370523-stock-photo-close-up-black-asphalt-texture.jpg);
+}
+
 .quiz {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: -5%;
-    background-color: bisque;
-    opacity: 0.7;
+    margin-top: 1%;
+    background-color: rgb(206, 203, 203);
+    border: 0.1px solid grey;
+    opacity: 0.95;
+    font-size: 18px;
 }
 
 .quizInformation {
@@ -21,17 +29,17 @@
 .singleQuestion {
     margin-bottom: 30px;
     padding: 10px;
-    background-color: bisque;
+    background-color: rgb(206, 203, 203);
 }
 
 .singleQuestion > * {
-    margin: 7px;
-    padding: 7px;
+    margin: 9px;
+    padding: 9px;
 }
 
 .singleQuestion > * > * {
-    margin: 3px;
-    padding: 3px;
+    margin: 7px;
+    padding: 7px;
 }
 
 .submitArea {
@@ -43,4 +51,9 @@
 .submitButton {
     height: 60px;
     width: 140px;
+}
+
+#commentSection {
+    margin-top: 10px;
+    border: 2px solid black;
 }
