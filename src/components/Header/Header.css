@@ -1,9 +1,10 @@
 .header {
   background-color: gainsboro;
-  opacity: 0.3;
+  opacity: 0.95;
   height: 100px;
   font-size: 70px; 
-  text-align: center;  
+  text-align: center;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.459);  
 }
 
 .title {
