@@ -949,6 +949,224 @@ const Questions = [
   },
 
   {
+    questionText: "Vad är sant om längden av ett fordonståg?",
+    options: [
+      ["A. Längden får maximalt uppgå till 24,0 meter.", 0],
+      ["B. Längden får uppgå till 25,25 meter förutsatt att ett antal villkor är uppfyllda.", 1],
+    ],
+    comment: "Ett annat motordrivet fordon än en buss med eller utan ett därtill kopplat fordon får inte föras på andra vägar än enskilda om fordonet eller fordonståget, lasten inräknad, är längre än 24,0 meter. Längden av ett fordonståg, lasten inräknad, får dock uppgå till 25,25 meter om följande villkor är uppfyllda. […] 1. […] 11."
+  },
+
+  {
+    questionText: "Du vill svänga vänster i en korsning där trafiken är tät. Kan du bli tvungen att avstå från att svänga?",
+    options: [
+      ["A. Nej, jag får alltid svänga om jag placerar mig till vänster i körfältet och använder körriktningsvisare.", 0],
+      ["B. Ja, om jag orsakar onödigt hinder för den bakomvarande trafiken.", 1],
+    ],
+    comment: "En förare får svänga i en vägkorsning endast om det kan ske utan fara eller onödigt hinder för andra som färdas i samma riktning. Särskild uppmärksamhet skall riktas på den bakomvarande trafiken."
+  },
+
+  {
+    questionText: "Du fyller i luft i däcken på en bensinmack. Vilket alternativ är sant?",
+    options: [
+      ["A. Fyller du i 20 % mer än rekommenderat riskerar du att däcket exploderar.", 0],
+      ["B. Fyller du i 130 % mer än rekommenderat riskerar du att däcket exploderar.", 0],
+      ["C. Fyller du i 200 % mer än rekommenderat riskerar du att däcket exploderar.", 0],
+      ["D. Det är i princip omöjligt att få däcket att explodera.", 1],
+    ],
+    comment: "Kan inte däcket explodera? Nej. För det krävs att man pumpar i över 13–15 kg (bar) – mer än fem gånger normalt däcktryck för en personbil. Så mycket luft går inte att få i eftersom en vanlig kompressor inte klarar av att ge det trycket. Vid cirka 6–7 kg (bar) kan fälgen spricka – men redan det trycket är svårt att nå med vanliga påfyllningsapparater.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Får du hindra någon som genomför en osäker omkörning?",
+    options: [
+      ["A. Ja, det är din skyldighet som trafikant.", 0],
+      ["B. Ja, det är dock frivilligt.", 0],
+      ["C. Nej, det är förbjudet.", 1],
+    ],
+    comment: "”Föraren får inte öka hastigheten eller på något annat sätt försvåra omkörningen.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vilket straff får normalt en person som smiter från en olycksplats där det endast uppkom skador på egendom?",
+    options: [
+      ["A. Indraget körkort", 0],
+      ["B. Dagsböter", 1],
+      ["C. Fängelse", 0],
+    ],
+    comment: "”Om olyckan endast medfört skador på egendom, och den inblandade smiter, är straffet dagsböter. Det kan även nu bli fråga om att körkortet dras in.” (Körkortsboken, upplaga 19, sida 255) Indraget körkort ”är en trafiksäkerhetsåtgärd och inte ett straff” (MHF)."
+  },
+
+  {
+    questionText: "Vad kallas vägtypen på fotot?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/7115.jpg",
+    options: [
+      ["A. 2+1-väg", 1],
+      ["B. 3-väg", 0],
+      ["C. Dubbelväg", 0],
+      ["D. Enskild väg", 0],
+    ],
+    comment: "Begreppet 2+1-väg är väletablerat och används av exempelvis Trafikverket, NTF och Körkortsboken."
+  },
+
+  {
+    questionText: "Vad betyder vägmärket?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/C18-1.svg",
+    options: [
+      ["A. Förbjudet att köra fordon inklusive släp om den totala längden på dragfordon och släp överstiger 20 meter.", 1],
+      ["B. Förbjudet att köra fordon längre än 20 meter. Tillkopplat släp som gör att den totala längden på dragfordon och släp överstiger 20 meter får dock förekomma.", 0],
+    ],
+  },
+
+  {
+    questionText: "Vad betyder vägmärket?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/H16-1.svg",
+    options: [
+      ["A. Friluftsområde", 1],
+      ["B. Vandringsled", 0],
+      ["C. Familjevänligt område", 0],
+      ["D. Rastplats", 0],
+    ],
+  },
+
+  {
+    questionText: "Vad är sant angående singelolyckor med personbil på vägar där hastighetsgränsen är högst 50 km/h?",
+    options: [
+      ["A. De flesta inträffar under veckoslutets nätter.", 1],
+      ["B. De flesta inträffar på måndag morgon.", 0],
+      ["C. De flesta inträffar i mitten av veckan mellan klockan 16–18.", 0],
+      ["D. De flesta inträffar på söndag morgon klockan 6–9.", 0],
+    ],
+    comment: "”Singelolyckor med personbil där hastighetsgränsen är högst 50 km/h fördelade efter veckodag och tid på dygnet. […] Nästan 40 procent av olyckorna inträffade kvällen/natten mellan fredag/lördag och lördag/söndag (18:00-05:59).” (Trafikverket)"
+  },
+
+  {
+    questionText: "Du ska köra in på en motorväg. Vad gäller?",
+    options: [
+      ["A. Finns det accelerationsfält har varken du eller trafiken på motorvägen företräde, det är ömsesidig anpassning som gäller.", 1],
+      ["B. Saknas det accelerationsfält har varken du eller trafiken på motorvägen företräde, det är ömsesidig anpassning som gäller.", 0],
+      ["C. Du måste lämna företräde åt alla på motorvägen, oavsett hur påfarten ser ut.", 0],
+    ],
+    comment: "”Accelerationsfält […] du har inte företräde […] motorvägstrafiken har inte företräde […] det är ömsesidig hänsyn som gäller […] Saknar motorvägen accelerationsfält gäller väjningsplikt, och du måste väja för trafiken ute på motorvägen.” (Körkortsboken, upplaga 19, sida 106–107)"
+  },
+
+  {
+    questionText: "Ungefär hur många av de som omkommer i trafikolyckor använde inte bälte vid olyckstillfället?",
+    options: [
+      ["A. 1%", 0],
+      ["B. 5%", 0],
+      ["C. 25%", 0],
+      ["D. 40%", 1],
+    ],
+  },
+
+  {
+    questionText: "Vilket alternativ är sant angående fordonsskatt?",
+    options: [
+      ["A. Fordonsskatten ingår i trafikförsäkringen.", 0],
+      ["B. Fordonsskatten är inte lika stor för alla fordon.", 1],
+      ["C. Fordonsskatt måste betalas för alla fordon.", 0],
+      ["D. Fordonsskatt måste betalas även om ett fordon är avställt.", 0],
+    ],
+    comment: "”Trafikförsäkringen skyddar endast vid olyckor. Skattens storlek beror på, och beräknas, utifrån en rad faktorer. Följande faktorer kan ha inverkan på skattens storlek: fordonskategori, skattevikt, drivmedel, koldioxidutsläpp. Följande fordon är inte fordonsskattepliktiga: […] mopeder, traktorer klass II (jordbrukstraktorer). Avställda fordon är inte skattepliktiga.” (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Du vill transportera en låda på bilens tak. Bilen är 160 cm bred och lådans bredd är 175 cm. Får du köra bilen med lasten på allmän väg?",
+    options: [
+      ["A. Nej", 0],
+      ["B. Ja", 1],
+    ],
+    comment: "”Om ett motordrivet fordon eller ett därtill kopplat fordon lastas så att lasten på någondera sidan skjuter ut mer än 20 centimeter utanför fordonet eller om fordonets bredd, lasten inräknad, överstiger 260 centimeter […] får fordonet eller därtill kopplat fordon föras endast på enskild väg.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Gäller speciella regler för följen av olika slag, exempelvis en grupp barn med ledare?",
+    options: [
+      ["A. Ja, du får inte bryta följet.", 1],
+      ["B. Nej, du behöver endast vidta vanlig försiktighet.", 0],
+    ],
+    comment: "”En trafikant får inte bryta eller på annat sätt hindra […] en grupp av barn under ledares uppsikt, ett begravningsfölje eller någon annan procession.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Skylten som tilläggstavlan avser har ramlat bort. Vilken slutsats kan du med säkerhet dra?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/t12-trasig.svg",
+    options: [
+      ["A. Den saknade skylten är ett varningsmärke.", 0],
+      ["B. Den saknade skylten är inte ett anvisningsmärke.", 0],
+      ["C. Den saknade skylten är inte ett förbudsmärke.", 1],
+      ["D. Den saknade skylten är ett väjningspliktsmärke.", 0],
+    ],
+    comment: "”En tilläggstavla har samma bottenfärg och samma färg på bård och tecken som det vägmärke det används under, om inte annat anges i 30 §. En tilläggstavla under ett märke som anger förbud mot att parkera eller förbud mot att stanna eller parkera har dock gul bottenfärg med svarta tecken.” (Vägmärkesförordningen)"
+  },
+
+  {
+    questionText: "Hur många mil är det kvar till Uppsala?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/6318.jpg",
+    options: [
+      ["A. 46", 0],
+      ["B. 4,6", 1],
+      ["C. 0,46", 0],
+    ],
+    comment: "Tavlorna anger alltid avståndet i kilometer (km). Mil får du fram genom att dela med 10: 46/10 = 4,6 mil"
+  },
+
+  {
+    questionText: "Hur många sittplatser för passagerare får det maximalt finnas i en personbil?",
+    options: [
+      ["A. 5", 0],
+      ["B. 6", 0],
+      ["C. 8", 1],
+      ["D. Ingen gräns finns", 0],
+    ],
+    comment: "”Personbil […] En bil som är försedd med högst åtta sittplatser utöver förarplatsen”. (Lagen om vägtrafikdefinitioner)"
+  },
+
+  {
+    questionText: "Kan det vara förbjudet att framföra ett fordon om du är trött?",
+    options: [
+      ["A. Ja", 1],
+      ["B. Nej", 0],
+    ],
+    comment: "”Fordon får inte föras av den som på grund av sjukdom, uttröttning, påverkan av alkohol, andra stimulerande eller bedövande ämnen eller av andra skäl inte kan föra fordonet på ett betryggande sätt.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Hur ska du tolka skylten på bilden?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/2102.jpg",
+    options: [
+      ["A. Svänger du höger kommer du direkt ut på E20.", 0],
+      ["B. Svänger du höger kommer du först ut på E20, sedan väg 53 och sist väg 230.", 0],
+      ["C. Svänger du höger har du möjlighet att ansluta till E20, väg 53 samt väg 230.", 1],
+      ["D. För att komma till E20, väg 53 eller väg 230 måste du först åka till centrum.", 0],
+    ],
+    comment: "”Vägnummer anges endast för vägar i nummergruppen 1–499. Ett märke med streckad bård anger att vägen leder till den väg som vägvisas med det nummer som anges på märket.”"
+  },
+
+  {
+    questionText: "Det är mörkt ute och du kör med halvljus. På vilket avstånd upptäcker du en fotgängare med reflex?",
+    options: [
+      ["A. Cirka 75 meter.", 0],
+      ["B. Cirka 125 meter.", 1],
+      ["C. Cirka 180 meter.", 0],
+      ["D. Cirka 300 meter.", 0],
+    ],
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
     questionText: "",
     imgUrl: "",
     options: [
