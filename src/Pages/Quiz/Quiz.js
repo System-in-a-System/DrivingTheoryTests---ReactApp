@@ -60,11 +60,12 @@ const Quiz = ({ name, score, setScore }) => {
             <div className="questionText">{question.questionText}</div>
             {question.imgUrl && (
                 // eslint-disable-next-line no-sequences
-                <div id="imageHolder" style={{ height: "400px" }, {margin: "10px"}}>
+                <div id="imageHolder" style={{ height: "300px" }, { margin: "10px" }}>
                   <img 
                     alt="illustration"
                     src = {question.imgUrl}
-                    style = {{ height: "395px" }}
+                    // eslint-disable-next-line no-sequences
+                    style = {{ height: "295px" }, { margin: "0"}, { objectFit: "contain"}}
                   />
                 </div>
               )}
