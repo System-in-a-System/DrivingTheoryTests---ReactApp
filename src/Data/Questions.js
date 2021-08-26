@@ -7,8 +7,7 @@ const Questions = [
       ["B. Kollektivtrafik, cyklister samt förare av moped klass II.", 1],
       ["C. Alla fordon som kan transportera minst 8 personer.", 0],
       ["D. Kollektivtrafik samt förare av moped klass I.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -19,8 +18,7 @@ const Questions = [
       ["B. Ja, att det finns en läcka i bromssystemet.", 1],
       ["C. Ja, att ABS inte fungerar.", 0],
       ["D. Ja, att bromsskivorna är slitna.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -30,8 +28,7 @@ const Questions = [
       ["B. 50 km/h.", 0],
       ["C. 70 km/h.", 0],
       ["D. 90 km/h.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -40,8 +37,7 @@ const Questions = [
       ["A. Köra som vanligt eftersom det finns varningssignaler som meddelar om ett tåg kommer.", 0],
       ["B. Sakta in, kolla åt båda hållen, växla ner och sedan köra över snabbt.", 1],
       ["C. Sakta in, kolla åt båda hållen och sedan köra över långsamt.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -51,8 +47,7 @@ const Questions = [
       ["B. Koldioxid bidrar till växthuseffekten.", 1],
       ["C. Koldioxid var ett stort problem förr i tiden, men katalysatorerna i nya bilar filtrerar bort all koldioxid.", 0],
       ["D. Koldioxid är det enda en välfungerande katalysator släpper ut.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -61,8 +56,7 @@ const Questions = [
       ["A. Om bilen har dubbdäck ska släpvagnen, oavsett typ, ha dubbdäck. Detta för att motverka fällknivsverkan.", 1],
       ["B. Om bilen har dubbdäck ska en tillkopplad bromsad släpvagn ha dubbdäck. Obromsade släpvagnar behöver inte ha dubbdäck, eftersom de ändå inte kan bromsa.", 0],
       ["C. Om bilen har dubbdäck behöver en tillkopplad lätt släpvagn inte ha dubbdäck. Detta på grund av att lätta släpvagnar sällan används under längre sträckor.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -72,8 +66,7 @@ const Questions = [
       ["B. Korsande vägar som ansluter till huvudleden har alltid stopplikt.", 0],
       ["C. En huvudledsskylt sätts inte upp om det tydligt framgår att huvudleden fortsätter efter korsningen.", 1],
       ["D. Huvudleder är fria från korsningar med trafik i samma plan.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -83,8 +76,7 @@ const Questions = [
       ["B. Högerregeln", 0],
       ["C. Utfartsregeln", 1],
       ["D. Svängningsregeln", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -93,8 +85,7 @@ const Questions = [
       ["A. Nej, eftersom det finns en heldragen linje på min sida.", 0],
       ["B. Ja, och jag får köra över den heldragna linjen om det krävs.", 1],
       ["C. Ja, förutsatt att jag inte behöver köra över den heldragna linjen.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -103,8 +94,7 @@ const Questions = [
       ["A. Nej, då åtalas du för smitning.", 0],
       ["B. Ja, du har aldrig någon skyldighet att stanna vid en olycksplats.", 0],
       ["C. Ja, om du inte har bevittnat olyckan samtidigt som det är tydligt att din hjälp inte behövs.", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -114,8 +104,7 @@ const Questions = [
       ["B. Cirka 4 cl", 0],
       ["C. Cirka 9 cl", 1],
       ["D. Cirka 16 cl", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -124,8 +113,7 @@ const Questions = [
       ["A. Ett körfält där trafik i båda färdriktningarna tillåts samtidigt.", 0],
       ["B. Ett vändbart körfält vars färdriktning bestäms av trafiksignaler.", 1],
       ["C. Ett körfält som endast får användas av utryckningsfordon.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -135,8 +123,7 @@ const Questions = [
       ["B. 200–300 personer", 1],
       ["C. 350–550 personer", 0],
       ["D. 550–700 personer", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -146,8 +133,7 @@ const Questions = [
       ["B. Hoppa över växlar.", 1],
       ["C. Körning på så låga växlar som möjligt.", 0],
       ["D. Hålla motorns varvtal på minst 3 000 varv/minut.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -157,8 +143,7 @@ const Questions = [
       ["B. Ja, dock endast om det sker för att uppsöka vård.", 0],
       ["C. Ja, och det finns inga begränsningar, eftersom föraren har särskild utbildning.", 0],
       ["D. Nej, eftersom alla taxibilar enligt lag måste tillhandahålla lämpliga bilbarnstolar.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -168,8 +153,7 @@ const Questions = [
       ["B. Sträckan du förflyttas från det att du upptäckt hindret tills dess att du står stilla.", 0],
       ["C. Bromssträckan + stoppsträckan.", 0],
       ["D. Reaktionstiden + bromssträckan.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -177,8 +161,7 @@ const Questions = [
     options: [
       ["A. Ja", 0],
       ["B. Nej", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -187,8 +170,7 @@ const Questions = [
       ["A. Alltid körfältet längst till höger.", 0],
       ["B. Alltid körfältet längst till vänster.", 0],
       ["C. Körfältet som passar bäst för mitt färdmål.", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -198,8 +180,7 @@ const Questions = [
       ["B. Den blir 3 gånger längre.", 0],
       ["C. Den blir 2 gånger längre.", 0],
       ["D. Den förblir oförändrad.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -209,8 +190,7 @@ const Questions = [
       ["B. Unga män har en tendens att överskatta sin körförmåga mer när de har haft körkort i något år än när de precis har fått körkort.", 1],
       ["C. Unga män har en tendens att överskatta sin körförmåga mer när de precis har fått körkort än när de har haft körkort i något år.", 0],
       ["D. Unga män löper 5–6 gånger större risk att råka ut för en trafikolycka jämfört med de över 75 år.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -220,8 +200,7 @@ const Questions = [
       ["B. Närmare än 50 meter före och 50 meter efter.", 0],
       ["C. Närmare än 200 meter före och 50 meter efter.", 0],
       ["D. Parkeringsförbud råder till nästa vägkorsning på båda sidor om plankorsningen.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -231,8 +210,7 @@ const Questions = [
       ["B. 30 juni 2021", 1],
       ["C. 4 juni 2022", 0],
       ["D. 30 juni 2023", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -242,8 +220,7 @@ const Questions = [
       ["B. 0,2 promille alkohol i blodet.", 1],
       ["C. 1,0 promille alkohol i blodet.", 0],
       ["D. 1,2 promille alkohol i blodet.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -252,8 +229,7 @@ const Questions = [
       ["A. Jag har väjningsplikt mot fordonen på körbanan.", 1],
       ["B. Fordonen på körbanan har väjningsplikt mot mig.", 0],
       ["C. Eftersom vägrenen tillhör körbanan har ingen väjningsplikt. Ömsesidigt hänsynstagande måste ske.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -263,8 +239,7 @@ const Questions = [
       ["B. När bussen blinkar ut och hastighetsbegränsningen är högst 50 km/h.", 1],
       ["C. När bussen blinkar ut och hastighetsbegränsningen är över 50 km/h.", 0],
       ["D. Aldrig, eftersom bussen inte är i rörelse.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -273,8 +248,7 @@ const Questions = [
       ["A. Avfarten ligger alltid på vänster sida.", 0],
       ["B. Avfarten kan ligga på antingen höger eller vänster sida.", 1],
       ["C. Avfarten ligger alltid på höger sida.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -284,8 +258,7 @@ const Questions = [
       ["B. Då flera fordon kör i någon typ av följe.", 0],
       ["C. Lugn, säker och planerad körning utan stress.", 1],
       ["D. Försvarande av den egna positionen genom att exempelvis inte låta någon annan köra om.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -295,8 +268,7 @@ const Questions = [
       ["B. Vika ut i det mötande körfältet för att undvika vattnet.", 0],
       ["C. Köra med låg fart och hålla till vänster, dock inom mitt körfält.", 1],
       ["D. Göra en U-sväng och ta en annan väg.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -306,8 +278,7 @@ const Questions = [
       ["B. Ja, om personen är över 15 år.", 0],
       ["C. Ja, om det finns barn i närheten", 0],
       ["D. Nej.", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -316,8 +287,7 @@ const Questions = [
       ["A. Ja, dock endast om det är tät köbildning.", 0],
       ["B. Ja, de får alltid köra om på höger sida.", 1],
       ["C. Nej, de får aldrig köra om på höger sida.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -326,8 +296,7 @@ const Questions = [
       ["A. Ja, det är alltid tillåtet.", 0],
       ["B. Ja, dock endast om det är kraftig dimma.", 0],
       ["C. Nej, det är aldrig tillåtet.", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -336,8 +305,7 @@ const Questions = [
       ["A. Jag får alltid passera en gul signal eftersom den endast är en förvarning innan en röd signal.", 0],
       ["B. Jag får passera en gul signal om jag inte hinner stanna på ett säkert sätt när signalbilden växlar från grön till gul.", 1],
       ["C. Jag får aldrig passera en gul signal eftersom den har samma betydelse som en röd signal.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -347,8 +315,7 @@ const Questions = [
       ["B. Dämpar motorljudet (ljuddämpare).", 0],
       ["C. Omvandlar över 80 % av de skadliga ämnena i avgaserna till vatten och koldioxid.", 1],
       ["D. Reducerar bilens koldioxidutsläpp med över 80 %.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -358,8 +325,7 @@ const Questions = [
       ["B. 31 maj–1 september", 0],
       ["C. 16 april–30 september", 1],
       ["D. 1 maj–30 september", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -367,8 +333,7 @@ const Questions = [
     options: [
       ["A. Ja, det är tillåtet.", 1],
       ["B. Nej, det är inte tillåtet.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -378,8 +343,7 @@ const Questions = [
       ["B. I juni.", 0],
       ["C. I december.", 1],
       ["D. Det finns ingen märkbar skillnad mellan månaderna.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -388,8 +352,7 @@ const Questions = [
       ["A. Bensin och diesel.", 1],
       ["B. Etanol och biogas.", 0],
       ["C. El och rapsolja.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -398,8 +361,7 @@ const Questions = [
       ["A. 1–2 %", 0],
       ["B. 50 %", 0],
       ["C. 98–99 %", 1],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -408,8 +370,7 @@ const Questions = [
       ["A. Slitna däck fungerar bättre än nya däck i regn, men sämre under normala förhållanden.", 0],
       ["B. Slitna däck fungerar extra dåligt i regn.", 1],
       ["C. När det regnar är det ingen skillnad mellan greppnivån i slitna och nya däck.", 0],
-    ],
-    comment: "comment"
+    ]
   },
 
   {
@@ -1155,15 +1116,411 @@ const Questions = [
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Kontrolleras bilens utsläpp vid en vanlig besiktning?",
+    options: [
+      ["A. Ja", 1],
+      ["B. Nej", 0],
+    ],
+    comment: "”Vi gör även en miljökontroll […] När vi kontrollerar bensindrivna bilar mäter vi halterna av koloxid och kolväten vid tomgång samt koloxidhalten och lambdavärdet vid förhöjd tomgång.” (Bilprovningen)"
+  },
+
+  {
+    questionText: "Du står still med bil A och ska rakt fram. Hur bör du agera med tanke på den röda lastbilen som håller på att svänga in på vägen du kommer från?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/bilar-17.svg",
+    options: [
+      ["A. Försiktigt runda lastbilen och sedan fortsätta rakt fram.", 0],
+      ["B. Tuta och få lastbilen att backa, eftersom lastbilsföraren har väjningsplikt enligt högerregeln.", 0],
+      ["C. Backa några meter och släppa fram lastbilen.", 1],
+      ["D. Försiktigt köra fram och svänga höger.", 0],
+    ],
+    comment: "Trots att lastbilen egentligen måste väja för dig enligt högerregeln, är det lämpligast och säkrast att du backar några meter och släpper fram lastbilen. Enbart strikt regeltänkande är inte eftersträvansvärt, du ska visa ”gott omdöme i samspelet med andra trafikanter”. (Trafikverket)"
+  },
+
+  {
+    questionText: "Vad betyder vägmärket högst upp till vänster?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/7005.jpg",
+    options: [
+      ["A. Camping finns längre fram.", 0],
+      ["B. Rastplats 1 km åt höger.", 0],
+      ["C. Vandrarhem 1 000 m åt höger.", 1],
+      ["D. Hotell finns på platsen där märket sitter.", 0],
+    ],
+  },
+
+  {
+    questionText: "När slutar områdesmärket på bilden att gälla?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4084.jpg",
+    options: [
+      ["A. Efter nästa korsning.", 0],
+      ["B. När du passerar en sluttavla eller när det på annat tydligt sätt framgår att anvisningarna på märket inte gäller.", 1],
+      ["C. Endast när du passerar en sluttavla eller ett annat vägmärke som rör stannande, parkerande eller både stannande och parkerande.", 0],
+      ["D. Endast när du passerar en sluttavla.", 0],
+    ],
+    comment: "”Märket är uppsatt vid infarterna till området och gäller till den plats där tavla E21, slut på område, är uppsatt eller det på annat tydligt sätt framgår att anvisningarna på märket inte gäller. Inom området kan det förekomma avvikelser från anvisningarna på märket. Dessa avvikelser anges genom andra vägmärken och tilläggstavlor. Anvisningarna på märket gäller även efter sådan avvikelse utan att märket upprepas.”"
+  },
+
+  {
+    questionText: "Om du kör på en gående, hur stor roll spelar det att du körde i 30 km/h i stället för 50 km/h?",
+    options: [
+      ["A. Det är mycket större chans att personen överlever.", 1],
+      ["B. Det gör ingen skillnad alls.", 0],
+      ["C. Det ökar bara marginellt chansen att personen överlever.", 0],
+    ],
+    comment: "En fotgängare ”löper 80 procents risk att dödas vid en påkörningshastighet om 50 km/tim medan risken att dödas endast är cirka 10 procent vid en hastighet om 30 km/tim.” (Trafikverket)."
+  },
+
+  {
+    questionText: "När bör du slå på helljuset igen i samband med möte i mörker?",
+    options: [
+      ["A. I mötesögonblicket.", 1],
+      ["B. 5 meter efter mötet.", 0],
+      ["C. 20 meter efter mötet.", 0],
+    ],
+    comment: "”Du ska slå över till helljus igen i mötesögonblicket. Det gäller att återfå en längre siktsträcka så snabbt som möjligt.” (Du och jag i trafiken, upplaga 28, sida 275)"
+  },
+
+  {
+    questionText: "Vilket alternativ anger något som är farligt nära jordytan men bra högt uppe i atmosfären?",
+    options: [
+      ["A. Kväveoxid (NOx)", 0],
+      ["B. Kolväten (HC)", 0],
+      ["C. Ozon", 1],
+      ["D. Kolmonoxid (CO) ", 0],
+    ],
+    comment: "”Det ozon som finns högt uppe i atmosfären skyddar oss mot skadlig UV-strålning. Nere på jorden är ozon däremot skadligt Tillsammans med kväveoxiderna bidrar kolväten till att ozon bildas.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Din bil har gått sönder på en 30-väg i en tätort. Vad gäller om sikten är god?",
+    options: [
+      ["A. Du måste sätta upp en varningstriangel 20 meter bakom bilen.", 0],
+      ["B. Du måste sätta upp en varningstriangel 50 meter bakom bilen.", 0],
+      ["C. Du måste sätta upp en varningstriangel 100 meter bakom bilen.", 0],
+      ["D. Du måste inte sätta upp någon varningstriangel.", 1],
+    ],
+    comment: "”Föraren av ett fordon som ska vara utrustat med en varningstriangel ska sätta ut triangeln när fordonet på grund av en olyckshändelse, ett motorfel eller något liknande har blivit stående på körbanan eller vägrenen där den högsta tillåtna hastigheten är högre än 50 kilometer i timmen och där fordonet inte får stannas eller parkeras”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vad orsakar fällknivsverkan med släpvagn?",
+    options: [
+      ["A. Dåliga bromsar på bilen.", 0],
+      ["B. Dåliga bromsar på släpvagnen.", 1],
+    ],
+    comment: "Fällknivsverkan: ”bilen bromsas bättre än släpvagnen.” (Körkortsboken, upplaga 19, sida 173). Bilen bromsar effektivt, men släpvagnen bromsar dåligt. Detta leder till att släpvagnen måste ta vägen någonstans (fart och energi finns fortfarande kvar eftersom släpvagnen inte är inbromsad helt). Det heter fällknivsverkan eftersom släpet då glider åt antingen höger eller vänster och därmed viker ihop sig som en fällkniv mot bilen. Krafterna är så stora att bilen också påverkas och rycks med – mycket trafikfarligt!"
+  },
+
+  {
+    questionText: "Bilarna på fotot kör i 90 km/h. Vad anser du om avståndet mellan dem?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3692.jpg",
+    options: [
+      ["A. Bra, eftersom de håller cirka en stolplängds avstånd.", 0],
+      ["B. Dåligt, de bör ha dubbelt så stort avstånd mellan sig.", 1],
+    ],
+    comment: "Två stolpsektorer, alltså att bilarna är vid varsin stolpe och det finns en stolpe mellan dem, är oftast ett bra avstånd på landsväg. Alltså: STOLPE + 50 meter + STOLPE + 50 meter + STOLPE"
+  },
+
+  {
+    questionText: "Du krypkör bilen som fotot är taget från. Hur ska du agera om signalerna vid A börjar blinka rött?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/6444.jpg",
+    options: [
+      ["A. Stanna omedelbart på samma plats som fotot togs.", 0],
+      ["B. Stanna precis innan signalen vid A.", 1],
+      ["C. Köra fram till signalerna vid B och stanna, eftersom A endast är en förvarning.", 0],
+    ],
+    comment: "”En förare som har stopplikt eller skall stanna på grund av trafiksignal skall stanna vid stopplinje. Om stopplinje saknas skall föraren stanna omedelbart före signalen”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vad är sant om last som skjuter ut mindre än en meter framför fordonet?",
+    options: [
+      ["A. Den måste alltid märkas ut med en rödgul flagga.", 0],
+      ["B. Den måste aldrig märkas ut.", 0],
+      ["C. Den måste inte märkas ut om den tydligt framgår för andra trafikanter.", 1],
+    ],
+    comment: "”Last som skjuter ut mindre än en meter framför fordonet behöver dock inte märkas ut om den utskjutande delen tydligt framgår för andra trafikanter.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Lufttrycket i däcken är 50 % över rekommenderat värde. Vad stämmer?",
+    options: [
+      ["A. Det är bra, eftersom högre lufttryck minskar rullmotståndet och därmed också bränsleförbrukningen.", 0],
+      ["B. Det är inte bra, eftersom däcken riskerar att slitas fortare, samtidigt som väggreppet kan blir sämre.", 1],
+      ["C. Det är inte bra, eftersom högre lufttryck ökar rullmotståndet och därmed också bränsleförbrukningen.", 0],
+    ],
+    comment: "”[…] mer än 10–15 procent över det rekommenderade trycket bör man inte ha. […] Höjer man trycket extremt mycket kommer man till en punkt där däcket börjar bukta och den yta som ligger an mot vägbanan minskar. Väggreppet försämras, slitaget ökar kraftigt. Om lufttrycket är för högt märks det också på komforten – bilen känns stötig och hård.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från. Vad gäller i de två korsningarna som kommer?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4652.jpg",
+    options: [
+      ["A. I första korsningen har jag väjningsplikt och i andra korsningen har den korsande trafiken väjningsplikt.", 1],
+      ["B. I första korsningen har den korsande trafiken väjningsplikt och i andra korsningen har jag väjningsplikt.", 0],
+      ["C. Jag har väjningsplikt i båda korsningarna.", 0],
+      ["D. Den korsande trafiken har väjningsplikt i båda korsningarna.", 0],
+    ],
+  },
+
+  {
+    questionText: "Hur mycket starksprit (40 %) motsvarar 50 cl folköl med 3,5 volymprocent alkohol?",
+    options: [
+      ["A. Cirka 4 cl", 1],
+      ["B. Cirka 7 cl", 0],
+      ["C. Cirka 10 cl", 0],
+      ["D. Cirka 13 cl", 0],
+    ],
+  },
+
+  {
+    questionText: "Hur bör du agera om hjulen på bilens högersida hamnar i gruset utanför en hög asfaltskant?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/A27-1.svg",
+    options: [
+      ["A. Släppa gasen, minska farten mjukt och sedan styra åt vänster med ett fast tag om ratten.", 1],
+      ["B. Bromsa in kraftigt och styra åt vänster först när hastigheten är mycket låg.", 0],
+      ["C. Omedelbart styra åt vänster med en kraftig och bestämd rattrörelse.", 0],
+      ["D. Omedelbart styra åt vänster med en mjuk och långsam rattrörelse.", 0],
+    ],
+    comment: "”Panikbromsa inte! Släpp i stället gaspedalen och fortsätt parallellt med kanten, medan du mjukt minskar farten. […] När farten sjunkit styr du försiktigt upp på körbanan igen med stadig rattföring.” (Du och jag i trafiken, upplaga 28, sida 245)"
+  },
+
+  {
+    questionText: "Är det tillåtet att svänga vänster i situationen på bilden?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/2480.jpg",
+    options: [
+      ["A. Ja, det är tillåtet.", 1],
+      ["B. Nej, eftersom påbudsmärket anger att det inte är tillåtet.", 0],
+      ["C. Nej, eftersom inga målade pilar finns på vägen.", 0],
+    ],
+    comment: "Märket anger att du måste köra till höger om refugen om du ska fortsätta rakt fram. Det säger dock inget om vad som gäller vid vänstersväng."
+  },
+
+  {
+    questionText: "Det är tät kö och möjlighet att köra om saknas. Bakomvarande bil håller för kort avstånd till dig. Hur bör du agera?",
+    options: [
+      ["A. Trampa på bromspedalen upprepade gånger så att bromslampan tänds.", 0],
+      ["B. Öka avståndet till framförvarande fordon.", 1],
+      ["C. Ignorera bakomvarande och endast fokusera framåt.", 0],
+    ],
+    comment: "Om du öker avståndet till framförvarande fordon får du större säkerhetsmarginal och minskar risken för en seriekrock om du blir påkörd bakifrån."
+  },
+
+  {
+    questionText: "Vad är PM10?",
+    options: [
+      ["A. En miljöbilsklass.", 0],
+      ["B. Ett trafiksäkerhetsmål.", 0],
+      ["C. Små skadliga partiklar.", 1],
+    ],
+    comment: "”Inandningsbara partiklar, PM10, är mikroskopiskt små partiklar. PM10 betyder ’particulate matter 10’ och är massan av de partiklar som har en diameter på mindre än 10 mikrometer (miljondels meter). Dessa partiklar kan vi andas in och de minsta kan ta sig ner i lungorna.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Vad är ett efterfordon?",
+    options: [
+      ["A. Ett samlingsnamn för alla släpfordon.", 0],
+      ["B. Något som är kopplat till en bil men inte klassas som släpfordon.", 1],
+      ["C. Ett släpfordon som är kopplad till en traktor eller motorredskap (klass I och II).", 0],
+    ],
+    comment: "Efterfordon: ”Ett fordon som är kopplat till en bil, en traktor, ett motorredskap eller ett terrängmotorfordon och som inte är ett släpfordon.” (Lagen om vägtrafikdefinitioner)"
+  },
+
+  {
+    questionText: "Bör föraren i bilen på fotot förvänta sig att korsande trafik har grönt ljus samtidigt?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/6432.jpg",
+    options: [
+      ["A. Nej, den gröna pilen indikerar att korsande trafik har rött ljus.", 1],
+      ["B. Ja, dock endast korsande fordonstrafik.", 0],
+      ["C. Nej, påbudsmärket indikerar att korsande trafik inte förekommer.", 0],
+      ["D. Ja, dock endast korsande gångtrafik.", 0],
+    ],
+    comment: "”När du får grönt ljus i form av pil har alla andra trafikanter som korsar din väg, rött ljus”. (Vägmärken & vägmarkeringar, upplaga 6, sida 26)"
+  },
+
+  {
+    questionText: "Kan körkortet återkallas om du bryter mot stopplikten?",
+    options: [
+      ["A. Ja", 1],
+      ["B. Nej", 0],
+    ],
+    comment: "”Ett körkort skall återkallas […] om körkortshavaren […] underlåtit att iaktta stopplikt […] om överträdelsen inte kan anses som ringa”. (Körkortslagen)"
+  },
+
+  {
+    questionText: "Vad innebär konstruktiv högsta hastighet?",
+    options: [
+      ["A. Att det inte är lämpligt att köra fortare.", 0],
+      ["B. Högsta hastigheten fordonet är byggt för.", 1],
+      ["C. Att den högsta tillåtna hastigheten kan ändras.", 0],
+    ],
+    comment: "Nationalencyklopedin: ”konstruktiv […] bygga upp något; som avser konstruktion.” Om exempelvis Volvo bygger en bil som de säger max ska/får köras i 200 km/h, är det den konstruktiva högsta hastigheten. Om du trimmar bilen så att den kan gå i 230 km/h, är den konstruktiva högsta hastigheten fortfarande 200 km/h, eftersom bilens övriga delar inte är gjorda för högre hastigheter."
+  },
+
+  {
+    questionText: "Hur många meter per sekund (m/s) är 110 kilometer i timmen (km/h)?",
+    options: [
+      ["A. Cirka 10 m/s", 0],
+      ["B. Cirka 30 m/s", 1],
+      ["C. Cirka 50 m/s", 0],
+      ["D. Exakt 110 m/s", 0],
+    ],
+    comment: "Gör om km/h till m/s: 110 / 3,6 = 31 m/s. 3,6 är ett fast tal för att omvandla mellan km/h och m/s. Är det jobbigt att dela med just 3,6 kan du dela först med 3 och sedan med 4 och ta ett värde som ligger mittemellan dem (marginalerna mellan alternativen är oftast stora)."
+  },
+
+  {
+    questionText: "Bör du dra åt parkeringsbromsen på vintern i fuktigt väder?",
+    options: [
+      ["A. Ja, det är extra viktigt eftersom däcken har sämre grepp.", 0],
+      ["B. Nej, eftersom parkeringsbromsen kan frysa fast.", 1],
+    ],
+    comment: "”I fuktigt väder ska du enbart använda en låg växel vid parkering. Det finns risk att parkeringsbromsen fryser fast!” (Körkortsboken, upplaga 19, sida 129)"
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från och håller på att köra om hästtransporten. När bör du slå på helljuset?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4516.jpg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 1],
+      ["C. ", 0],
+    ],
+    comment: "Du bör slå på ljuset så snart du inte riskerar att blända den andra föraren. Vid B är du jämsides och någon bländningsrisk finns inte, eftersom helljuset riktas långt framåt och inte så mycket åt sidorna."
+  },
+
+  {
+    questionText: "Vad är sant för breda däck och bränsleförbrukningen?",
+    options: [
+      ["A. De minskar i regel bränsleförbrukningen.", 0],
+      ["B. De gör i regel ingen skillnad på bränsleförbrukningen.", 0],
+      ["C. De ökar i regel bränsleförbrukningen.", 1],
+    ],
+    comment: "”Som regel kräver ett bredare däck mer bränsle än ett smalt.” (Konsumentverket). Detta beror på ökat luftmotstånd och ökad friktion mot marken."
+  },
+
+  {
+    questionText: "Är det tillåtet att stanna för att lasta av varor vid busshållplatsen?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/5123.jpg",
+    options: [
+      ["A. Ja, det är endast förbjudet att stanna för avlastning om linjen är heldragen.", 0],
+      ["B. Nej, det är inte tillåtet att stanna för avlastning.", 1],
+      ["C. Ja, men bara om det kan ske utan hinder för bussarna.", 0],
+    ],
+    comment: "”På en markerad hållplats för spårvagn, fordon i linjetrafik eller skolskjuts får andra fordon inte stannas eller parkeras annat än för på- och avstigning som kan ske utan hinder för spårvägs-, linje- eller skolskjutstrafiken.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Hur många procent av singelolyckorna sker när det är mörkt ute?",
+    options: [
+      ["A. Cirka 10 %", 0],
+      ["B. Cirka 40 %", 1],
+      ["C. Cirka 80 %", 0],
+    ],
+  },
+
+  {
+    questionText: "Vilket alternativ anger något som kan påverka arvsanlagen, orsaka cancer och samtidigt bidra till att bilda marknära ozon?",
+    options: [
+      ["A. Koldioxid (CO2)", 0],
+      ["B. Kolväten (HC)", 1],
+      ["C. Kväveoxid (NOx)", 0],
+      ["D. Kolmonoxid (CO)", 0],
+    ],
+    comment: "”Kolväten, HC, i bilavgaserna orsakar cancer och kan påverka arvsanlagen. Tillsammans med kväveoxider bidrar kolväteutsläppen till bildandet av marknära ozon.” (Körkortsboken, upplaga 19, sida 228)"
+  },
+
+  {
+    questionText: "Vilken typ av sväng får en cyklist göra?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4083b.jpg",
+    options: [
+      ["A. Endast A", 0],
+      ["B. Endast B", 0],
+      ["C. Både A och B", 1],
+    ],
+    comment: "”Cyklande och förare av moped klass II får […] före en vägkorsning hålla till höger på vägen även när de avser att svänga till vänster.” (Trafikförordningen). Detta eftersom det kan vara både svårt och farlig att välja A när det är tät trafik. B kan vara bättre, eftersom det gör att cyklisten kan stanna vid vägkanten och betrakta den övriga trafiken."
+  },
+
+  {
+    questionText: "Vilken skylt anger gågata?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/e5-e7-e9-e11.svg",
     options: [
       ["A. ", 0],
       ["B. ", 0],
       ["C. ", 0],
-      ["D. ", 0],
+      ["D. ", 1],
     ],
-    comment: ""
+  },
+
+  {
+    questionText: "Hur långt får ett fordon eller fordonståg som saknar låsningsfria bromsar maximalt vara?",
+    options: [
+      ["A. 2,6 meter", 0],
+      ["B. 10,0 meter", 0],
+      ["C. 24,0 meter", 1],
+      ["D. 25,25 meter", 0],
+    ],
+    comment: "”Ett annat motordrivet fordon än en buss med eller utan ett därtill kopplat fordon får inte föras på andra vägar än enskilda om fordonet eller fordonståget, lasten inräknad, är längre än 24,0 meter. Längden av ett fordonståg, lasten inräknad, får dock uppgå till 25,25 meter om följande villkor är uppfyllda. 1. Varje ingående fordon är utrustat med sådana låsningsfria bromsar och kopplingsanordningar som Transportstyrelsen föreskriver.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Hur räknas stoppsträckan ut?",
+    options: [
+      ["A. Bromssträckan minus reaktionssträckan.", 0],
+      ["B. Reaktionssträckan multiplicerat med bromssträckan.", 0],
+      ["C. Reaktionssträckan plus bromssträckan.", 1],
+    ],
+  },
+
+  {
+    questionText: " Du ska köra om en 14 meter lång buss en solig dag i maj. Precis när du är i höjd med bussens bakdel springer ett barn ut framför bussen. Vilken hastighet kan du max ha för att kunna stanna om du reagerar på 1 sekund?",
+    options: [
+      ["A. 70 km/h", 0],
+      ["B. 50 km/h", 0],
+      ["C. 30 km/h", 1],
+      ["D. 20 km/h", 0],
+    ],
+    comment: "Reaktionssträckan: stryk nollan i hastigheten * reaktionstiden * 3 => 3 * 1 * 3 = avrunda till 9 meter. Bromssträckan: stryk nollan i hastigheten * stryk nollan i hastigheten * 0,4 => 3 * 3 * 0,4 = 3,6 meter. Stoppsträckan: reaktionssträckan + bromssträckan => 9 + 3,6 = 12,6 meter"
+  },
+
+  {
+    questionText: "Fotot är taget från din bil och du ska rakt fram mot Vivalla. Vilket alternativ beskriver det lämpligaste sättet att genomföra körfältsbytet på?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3946.jpg",
+    options: [
+      ["A. Sänka farten kraftigt, titta i döda vinkeln, titta i backspegeln, blinka vänster och sedan styra åt vänster.", 0],
+      ["B. Köra med samma fart, titta i speglarna och döda vinkeln, blinka vänster, titta i döda vinkeln igen och sedan styra åt vänster.", 1],
+      ["C. Titta i döda vinkeln och speglarna, öka farten, blinka vänster och sedan långsamt styra åt vänster.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från. Hur bör du agera?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3670.jpg",
+    options: [
+      ["A. Köra in till högerkanten och vänta på att den mötande bilen ska passera cyklisterna.", 0],
+      ["B. Fortsätta köra som vanligt.", 1],
+      ["C. Passera cyklisterna med extra stort avstånd i sidled genom att köra nära högerkanten.", 0],
+    ],
+    comment: "Den mötande bilen befinner sig så långt bort att du har hunnit passera cyklisterna innan den mötande bilen kommer ifatt dem (kan ses genom att räkna antalet mittlinjer från dig till cyklisterna och från cyklisterna till mötande bilen, även genom att jämföra cyklisternas storlek med bilen – cyklisterna är betydligt större = bilen är långt bort). Finns det ingen anledning att göra något, är det säkras och bäst att fortsätta som vanligt."
+  },
+
+  {
+    questionText: "Hur förändras rörelseenergin om du ökar farten från 30 km/h till 90 km/h?",
+    options: [
+      ["A. Den blir 2 gånger större.", 0],
+      ["B. Den blir 4 gånger större.", 0],
+      ["C. Den blir 9 gånger större.", 1],
+    ],
+    comment: "”Rörelseenergin ökar kvadratiskt med ökande fart” (Du och jag i trafiken, upplaga 28, sida 159)"
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från. Vad är sant?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/7166.jpg",
+    options: [
+      ["A. Det är lämpligt att passera personen med reflexväst först efter kurvan längre fram.", 0],
+      ["B. Det är lämpligt att passera personen med reflexväst omgående.", 1],
+      ["C. Det är inte tillåtet att passera personen med reflexväst eftersom mittlinjen är heldragen.", 0],
+      ["D. Det är inte tillåtet att passera personen med reflexväst eftersom sikten är skymd.", 0],
+    ],
   },
 
   {
