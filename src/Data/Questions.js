@@ -435,7 +435,7 @@ const Questions = [
       ["B. Det gäller både för fram- och bakhjulsdrivna bilar.", 1],
       ["C. Det gäller endast för framhjulsdrivna bilar.", 0],
     ],
-    comment: "De däck som har det största mönsterdjupet eller bedöms ha det bästa väggreppet bör vara monterade bak på fordonet för att minska risken för sladd vid bromsning och i svängar. Däcken med största dubbutsticket bör monteras bak. Detta gäller både fram- och bakhjulsdrivna bilar."
+    comment: "De däck som har det största mönsterdjupet eller bedöms ha det bästa väggreppet bör vara monterade bak på fordonet för att minska risken för sladd vid bromsning och i svängar. Däcken med största dubbutsticket bör monteras bak. Detta gäller både fram- och bakhjulsdrivna bilar. (Transportstyrelsen)"
   },
 
   {
@@ -1524,6 +1524,474 @@ const Questions = [
   },
 
   {
+    questionText: "I vilken position ska bilbältet ligga?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/sakerhetsbalte.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 1],
+    ],
+    comment: "”Det diagonala bandet ska sitta över bröstet, så nära halsen som möjligt.” (NTF). När bältet sitter nära halsen uppnås bäst skyddande effekt och risken för skador minskar."
+  },
+
+  {
+    questionText: "Vad är sant om parkeringsförbudet på huvudleder?",
+    options: [
+      ["A. Det gäller endast huvudleder inom tättbebyggt område.", 0],
+      ["B. Det gäller endast huvudleder utanför tättbebyggt område (landsvägar).", 0],
+      ["C. Det gäller alltid på alla huvudleder, utan undantag.", 0],
+      ["D. Det gäller generellt på alla huvudleder, undantag finns dock.", 1],
+    ],
+    comment: "”Förbudet att parkera på en huvudled är en trafikregel. Ett vägmärke är en anvisning. När anvisningar och trafikregler står i konflikt med varandra ’vinner’ alltid anvisningarna.” (Du och jag i trafiken, upplaga 28, sida 313). Sitter det en P-skylt på huvudleden är det alltså tillåtet att parkera."
+  },
+
+  {
+    questionText: "Vilket märke varnar för ojämn väg?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/a8-a9.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 1],
+    ],
+  },
+
+  {
+    questionText: "Den röda bilen som står still i mitten av fotot ska svänga direkt in till höger. Vad anser du om placeringen?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3732.jpg",
+    options: [
+      ["A. Bra, eftersom föraren tar hänsyn till fotgängaren och lämnar en god säkerhetsmarginal.", 0],
+      ["B. Dålig, eftersom föraren står i mitten av körfältet och blockerar trafiken bakom.", 1],
+    ],
+    comment: "”Vid högersväng skall ett fordon föras så nära körbanans högra kant som lämpligen kan ske”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vilken vägmarkering anger att väjningsplikt eller stopplikt gäller längre fram?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/m14-m16-m17-m18.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 1],
+      ["D. ", 0],
+    ],
+    comment: "”M18 Markeringen anger att väjningsplikt eller stopplikt gäller längre fram i färdriktningen.”"
+  },
+
+  {
+    questionText: "Det är natt och du kör på en väg som är tillfredsställande belyst med gatlyktor. Vad är sant?",
+    options: [
+      ["A. Jag måste använda helljus.", 0],
+      ["B. Jag bör använda helljus, men det är inget krav.", 0],
+      ["C. Jag bör använda helljus, men det är inget krav.", 0],
+      ["D. Jag får inte använda helljus.", 1],
+    ],
+    comment: "”Helljus får inte användas […] på sträcka där vägen är tillfredsställande belyst”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Hur stor chans är det att en fotgängare som blir påkörd av en bil i 90 km/h överlever?",
+    options: [
+      ["A. Cirka 50 %", 0],
+      ["B. Cirka 30 %", 0],
+      ["C. Cirka 5 %", 0],
+      ["D. Nära 0 %", 1],
+    ],
+    comment: "”Vid hastigheten 80 km/h är sannolikheten nästan 100 % att fotgängaren dödas.” (NTF)"
+  },
+
+  {
+    questionText: "Vilken linje betyder omkörningsförbud?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/m3-m4-m6-m8.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. Ingen av dem", 1],
+    ],
+    comment: "I folkmun beskrivs ofta den heldragna linje B som ”omkörningsförbud”. I själva verket sägs det inget om omkörningsförbud i lagen, heldragna linjer används när det ”inte är tillåtet att färdas över till motgående körfält” (Vägmärkesförordningen)."
+  },
+
+  {
+    questionText: "Vilken typ av drivsystem har generellt de bästa egenskaperna vid dåligt väglag?",
+    options: [
+      ["A. Framhjulsdrift", 1],
+      ["B. Bakhjulsdrift", 0],
+    ],
+    comment: "”De flesta biltillverkare överger bakhjulsdriften till förmån för framhjulsdriften. Den viktigaste orsaken är de sämre vägegenskaperna i dåligt väglag.” (Körkortsboken, upplaga 19, sida 127)"
+  },
+
+  {
+    questionText: "Vad betyder siffrorna i mitten på tilläggstavlan?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/T6-1.svg",
+    options: [
+      ["A. Gäller mellan klockan 8–14 alla dagar.", 0],
+      ["B. Gäller mellan klockan 8–14 på helgdagar.", 0],
+      ["C. Gäller mellan klockan 8–14 på vardag före sön- och helgdag.", 1]
+    ],
+  },
+
+  {
+    questionText: "Vad är sant angående ett motorfordon med trasig färdbroms?",
+    options: [
+      ["A. Jag får köra fordonet, förutsatt att parkeringsbromsen fungerar.", 0],
+      ["B. Jag får köra fordonet, dock endast till närmaste verkstad.", 0],
+      ["C. Jag får inte köra fordonet alls.", 1],
+      ["D. Jag får köra fordonet, dock max i 30 km/h.", 0],
+    ],
+    comment: "Färdbromsen är fordonets huvudsakliga broms (alltså den som aktiveras när du trycker på bromspedalen i en bil). Att den inte fungerar är ett mycket allvarligt fel och det skulle vara extremt farligt att köra utan färdbroms. Det är körförbud direkt om det upptäcks vid en besiktning."
+  },
+
+  {
+    questionText: "En förare kör bil med 0,2 promille alkohol i blodet. Hur många gånger högre är risken för en dödsolycka, jämfört med om samma förare varit nykter?",
+    options: [
+      ["A. Cirka 3 gånger högre.", 0],
+      ["B. Cirka 10 gånger högre.", 1],
+      ["C. Cirka 50 gånger högre.", 0],
+      ["D. Cirka 300 gånger högre.", 0],
+    ],
+    comment: "”Riskkurvan visar risken för en förare med en viss alkoholkoncentration i blodet att dödas i en trafikolycka relativt risken för en nykter förare att dödas. […] 0,2–0,4 promille, är den skattade relativa risken ca 12 gånger” (VTI)"
+  },
+
+  {
+    questionText: "Vad betyder vägmärket?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/C38-1.svg",
+    options: [
+      ["A. Förbud mot att parkera fordon på dag med udda datum.", 0],
+      ["B. Förbud mot att parkera fordon på dag med jämnt datum.", 0],
+      ["C. Förbud mot att parkera fordon både jämna och udda dagar.", 0],
+      ["D. Datumparkering.", 1],
+    ],
+    comment: "”Märket anger förbud mot att parkera fordon på dagar med jämnt datum på den sida av vägen som har jämna adressnummer och på dagar med udda datum på den sida av vägen som har udda adressnummer. De närmare föreskrifterna till märke C35, förbud mot att parkera fordon, gäller även till detta märke.”"
+  },
+
+  {
+    questionText: "Vad är ett stigningsfält?",
+    options: [
+      ["A. Ett extra körfält för omkörningar i backar.", 1],
+      ["B. Ett körfält som har vajerräcken på båda sidor.", 0],
+      ["C. En måttenhet på bromsvätsketanken.", 0],
+    ],
+    comment: "”Stigningsfält är ett extra körfält, som förekommer i vissa långa eller branta stigningar och som ska användas vid omkörningar.” (Du och jag i trafiken, upplaga 28, sida 252)"
+  },
+
+  {
+    questionText: "Är det tillåtet att flytta ett dött djur från körbanan efter en viltolycka?",
+    options: [
+      ["A. Ja, eftersom det minskar risken för att andra trafikanter kör på djuret.", 1],
+      ["B. Nej, eftersom det försvårar utredningen av olyckan.", 0],
+    ],
+    comment: "”Har djuret dött i kollisionen, ska du flytta det från vägbanan.” (Körkortsboken, upplaga 19, sida 103). Viltolyckor utreds inte på samma sätt som olyckor där människor dött. Därför ska du försöka flytta djuret."
+  },
+
+  {
+    questionText: "Vilket märke anger förbud mot trafik med fordon?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/c1-c2-c3-e16.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 1],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+  },
+
+  {
+    questionText: "Vad innebär infraljud i trafiksammanhang?",
+    options: [
+      ["A. Det ljud som tutan avger.", 0],
+      ["B. Det ohörbara ljud som tät trafik avger.", 1],
+      ["C. Det ohörbara ljud som tät trafik avger.", 0],
+    ],
+    comment: "”Vägtrafiken skapar […] ett ohörbart ljud, infraljud”. (Körkortsboken, upplaga 19, sida 228)"
+  },
+
+  {
+    questionText: "Vilken vägmarkering är en varningslinje?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/m3-m4-m6-m8.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 1],
+    ],
+    comment: "”Varningslinje används för att informera om att linjen är olämplig att överskrida på grund av trafikförhållandena. Markeringen anger gränsen mellan körfält avsedda för färd i motsatta färdriktningar. Markeringen har längdförhållandet 3:1 mellan dellinje och mellanrum.”"
+  },
+
+  {
+    questionText: "Vilket alternativ är sant?",
+    options: [
+      ["A. Övergödning är positivt för miljön.", 0],
+      ["B. Övergödning är negativt för miljön.", 1],
+      ["C. Utsläppen från motordrivna fordon är den enda orsaken till övergödning.", 0],
+    ],
+    comment: "Gödning är bra, men inte övergödning, som innebär att för mycket näringsämnen tillförs."
+  },
+
+  {
+    questionText: "Varför är det bra att slå av helljuset en kort stund innan ett backkrön i mörker?",
+    options: [
+      ["A. Du ser lättare om du får möte.", 1],
+      ["B. Eventuella mötande fordon ser dig lättare.", 0],
+    ],
+    comment: "”Det är bra att göra en kort avbländning före backkrön och kurvor. Du ser mötande tidigare, och du får en möjlighet att upptäcka hinder som en silhuett mot mötande ljus.” (Körkortsboken, upplaga 19, sida 155)"
+  },
+
+  {
+    questionText: "Den svarta bilen har stannat för att lasta ur varor. Är det tillåtet att stanna på den platsen för det ändamålet?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/2280.jpg",
+    options: [
+      ["A. Nej, eftersom bilen står för nära korsningen.", 1],
+      ["B. Ja, eftersom stoppet har gjorts för att lasta ur varor.", 0],
+    ],
+    comment: "”Ett fordon får inte stannas […] i en vägkorsning eller inom ett avstånd av tio meter från en korsande körbanas närmaste ytterkant. Det är alltid förbjudet att lasta ur bilen där det är förbjudet att stanna.”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Du tvättar din bil i en automatisk biltvätt. Vad bör du göra efter tvätten?",
+    options: [
+      ["A. Kontrollera elsystemet", 0],
+      ["B. Provbromsa", 1],
+      ["C. Kontrollera däcktrycket", 0],
+      ["D. Kontrollera mönsterdjupet", 0],
+    ],
+    comment: "”Provbromsa […] efter att du tvättat bilen […] Vid provbromsning värms bromsarna och fukten torkar.” (Körkortsboken, upplaga 19, sida 130). Bromsarna är inte skyddade från vatten på samma sätt som elsystemet är. Vatten kan därför försämra bromsarnas effekt."
+  },
+
+  {
+    questionText: "Var gäller stopp- och parkeringsförbud?",
+    options: [
+      ["A. På eller inom ett avstånd av tio meter före ett övergångsställe.", 0],
+      ["B. På eller inom ett avstånd av tio meter efter ett övergångsställe.", 0],
+      ["C. På eller inom ett avstånd av tio meter före och efter ett övergångsställe.", 0],
+    ],
+    comment: "”Ett fordon får inte stannas eller parkeras […] på eller inom ett avstånd av tio meter före ett övergångsställe”. (Trafikförordningen). Att förbudet inte gäller efter beror på att sikten inte skyms på samma sätt då. De gående befinner sig då framför den parkerade bilen, vilket gör att du ser dem."
+  },
+
+  {
+    questionText: "Vad gäller om du bogserar en skadad bil bakom din bil?",
+    options: [
+      ["A. Den skadade bilen ska alltid märkas ut på samma sätt som utskjutande last.", 0],
+      ["B. Den skadade bilens belysning ska aldrig användas. Det är endast dragfordonet som ska använda belysning.", 0],
+      ["C. Den skadade bilens belysning ska användas. Går inte det ska bilen märkas ut på samma sätt som utskjutande last.", 1],
+    ],
+    comment: "”Vid bärgning eller bogsering av ett skadat fordon på väg ska, om det skadade fordonets belysning inte kan användas på föreskrivet sätt, det skadade fordonet i stället märkas ut”. (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vilken motor släpper ut mest skadliga kväveoxider?",
+    options: [
+      ["A. Bensinmotorn", 0],
+      ["B. Elmotorn", 0],
+      ["C. Hybridmotorn", 0],
+      ["D. Dieselmotorn", 1],
+    ],
+    comment: "”Jämfört med en bensindriven bil orsakar dieselbilar något högre utsläpp av främst kväveoxider”. (Konsumentverket)"
+  },
+
+  {
+    questionText: "Är det tillåtet att använda sommardäck en snöig januaridag?",
+    options: [
+      ["A. Nej, aldrig.", 0],
+      ["B. Ja, om däcken har snökedjor.", 1],
+      ["C. Ja, om mönsterdjupet är minst 8 mm.", 0],
+    ],
+    comment: "”Ett tillåtet alternativ till vinterdäck är sommardäck försedda med snökedjor.” (Körkortsboken, upplaga 19, sida 175)"
+  },
+
+  {
+    questionText: "Hur stor får den totala bredden maximalt vara på ett fordon som körs på allmän väg?",
+    options: [
+      ["A. 220 cm", 0],
+      ["B. 240 cm", 0],
+      ["C. 260 cm", 1],
+      ["D. 280 cm", 0],
+    ],
+    comment: "”Om […] fordonets bredd, lasten inräknad, överstiger 260 centimeter […] får fordonet eller därtill kopplat fordon föras endast på enskild väg.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Det är vinter och du ska precis köra ut på en bro över ett vattendrag. Bör du räkna med risk för halt väglag om temperaturen är 0°C?",
+    options: [
+      ["A. Ja, en bro över ett vattendrag kombinerat med en temperatur på 0°C ökar risken för halka.", 1],
+      ["B. Ja, dock endast vid brons början och slut.", 0],
+      ["C. Nej, risken för halka minskar alltid på broar, eftersom luften under gör att vägbanan inte fryser.", 0],
+      ["D. Nej, eftersom temperaturen är 0°C.", 0],
+    ],
+    comment: "Om det är kallt och blåser kraftigt kommer bron att bli hal snabbare, eftersom vägen exponeras för kylan från alla håll (även underifrån). ”På broar och viadukter är det större risk för halka […] Vid en bro över ett vattendrag är den omgivande luften fuktig, vilket ökar risken för halka.” (Körkortsboken, upplaga 19, sida 167)"
+  },
+
+  {
+    questionText: "Hur fort får en tung lastbil utan släp max köra på en väg med denna skyltkombination?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/c31-12-e1.svg",
+    options: [
+      ["A. 80 km/h", 0],
+      ["B. 90 km/h", 1],
+      ["C. 100 km/h", 0],
+      ["D. 110 km/h", 0],
+    ],
+    comment: "Tung lastbil får max köra 90 km/h på motorväg och motortrafikled och max 80 km/h på alla andra vägar."
+  },
+
+  {
+    questionText: "Du har parkerat vid en trottoarkant på höger sida i medlut. Vilket alternativ stämmer?",
+    options: [
+      ["A. Du bör vrida ratten åt höger för att undvika att bilen rullar.", 1],
+      ["B. Du bör vrida ratten åt vänster för att undvika att bilen rullar.", 0],
+      ["C. Du bör inte vrida ratten alls; det är bäst om hjulen pekar rakt fram.", 0],
+    ],
+    comment: "Medlut = om bilen rullar gör den det framåt, det vill säga med motorhuven först. Genom att hjulen pekar åt höger kommer bilen då bara att rulla snett in i trottoarkanten och sedan stanna."
+  },
+
+  {
+    questionText: "Du är stressad och kör bilen som fotot är taget från. Är mopedföraren skyldig att underlätta för dig om du påbörjar en omkörning till vänster?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/5347.jpg",
+    options: [
+      ["A. Ja", 1],
+      ["B. Nej", 0],
+    ],
+    comment: "”När en förare som färdas på väg uppmärksammar att någon avser att köra om till vänster, skall föraren med iakttagande av bestämmelserna i 7 § hålla så långt till höger som möjligt. Föraren får inte öka hastigheten eller på något annat sätt försvåra omkörningen.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vilket alternativ ger exempel på överinlärning?",
+    options: [
+      ["A. Att du automatiserar den tekniska körningen.", 1],
+      ["B. Att du pluggar för mycket inför provet så att du blandar ihop begrepp.", 0],
+      ["C. Att du söker djup förståelse och ser sammanhang.", 0],
+      ["D. Att du endast lär dig komplicerade saker.", 0],
+    ],
+    comment: "Överinlärning: ”Din rent tekniska körning ska automatiseras. När du inte behöver tänka på den tekniska delen av körningen, utan den sker automatiskt, kan du använda din medvetna tankeförmåga, då det inträffar något som kräver snabba reaktioner.” (Körkortsboken, upplaga 19, sida 11)"
+  },
+
+  {
+    questionText: "Den svarta bilen till vänster på fotot har precis försiktigt passerat cyklisten i cirkulationsplatsen. Vad anser du om manövern?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3757.jpg",
+    options: [
+      ["A. Den var lämplig.", 1],
+      ["B. Den var olämplig.", 0],
+      ["C. Den var bara lämplig om den svarta bilen ska åt vänster i cirkulationsplatsen.", 0],
+    ],
+    comment: "Det finns inga tydliga regler som säger exakt vad man får och inte får göra i det här läget. Det finns dock starka indikationer på att det var lämpligt att passera cyklisten: Cyklister får alltid köras om i korsningar. ”Tvåhjuliga fordon utan sidvagn får […] köras om.” (Trafikförordningen)."
+  },
+
+  {
+    questionText: "När du testar bilens bromsar stillastående, hur hårt ska du trycka ner bromspedalen?",
+    options: [
+      ["A. Mycket löst.", 0],
+      ["B. Som vid normal bromsning.", 0],
+      ["C. Så hårt du kan med hela foten.", 1],
+    ],
+    comment: "”Bromskontroll […] Tryck på bromspedalen med största kraft”. (Körkortsboken, upplaga 19, sida 131)"
+  },
+
+  {
+    questionText: "Vad är HA-oljor?",
+    options: [
+      ["A. Cancerframkallande oljor som finns i vissa däck.", 1],
+      ["B. Miljöfarliga oljor som finns i bromssystemet (bromsvätskan).", 0],
+      ["C. En typ av miljövänliga motoroljor.", 0],
+    ],
+    comment: "”Många äldre däck innehåller HA-oljor som är en av de vanligaste cancerframkallande produkterna som används i samhället.” (Körkortsboken, upplaga 19, sida 221)"
+  },
+
+  {
+    questionText: "Du vill dra en släpvagn med din bil. Vad är sant?",
+    options: [
+      ["A. Släpets vikt kommer inte att förändra bilens väggrepp.", 0],
+      ["B. Släpets vikt kommer att förändra bilens väggrepp.", 1],
+      ["C. Släpets vikt kommer endast att förändra bilens väggrepp om släpets totalvikt överstiger bilens tjänstevikt.", 0],
+    ],
+    comment: "Så fort ett släp kopplas på en bil förändras väggreppet. Kan bli både bättre och sämre, beroende på situationen. Kultryck är en viktig faktor."
+  },
+
+  {
+    questionText: "Finns det några risker med att försöka få igång en annan bil med hjälp av startkablar?",
+    options: [
+      ["A. Nej, startkablarna är gjorda så att riskerna elimineras.", 0],
+      ["B. Ja, elsystemen kan skadas och om pluspolen på givarbilen vidrörs kan personen få en dödlig elchock.", 0],
+      ["C. Ja, en så kallad knallgasexplosion kan uppstå och elsystemen kan skadas.", 1],
+    ],
+    comment: "Koppla rätt, annars ”riskerar man att skada elsystemen och i värsta fall orsaka en batteriexplosion. När batteriet som tar emot ström laddas produceras en vätgas som är mycket explosiv.” (Teoriboken, upplaga 13, sida 21)"
+  },
+
+  {
+    questionText: "Bör du slå av helljuset när du möter en fotgängare?",
+    options: [
+      ["A. Ja, om du riskerar att blända fotgängaren.", 0],
+      ["B. Nej, eftersom fotgängaren lätt kan undvika bländning.", 1],
+    ],
+    comment: "”Möter du gående på en väg, ska du fortsätta att köra med helljus. Det är viktigt att du kan se var de finns och hur många de är. Risken att blända dem är liten, eftersom de har möjligheter att vända bort blicken.” (Körkortsboken, upplaga 19, sida 161)."
+  },
+
+  {
+    questionText: "Vilket är det sämsta stället att tvätta bilen på ur miljösynpunkt?",
+    options: [
+      ["A. Gör-det-själv-hall.", 0],
+      ["B. Automatisk biltvätt.", 0],
+      ["C. Grusplan.", 0],
+      ["D. På asfalt vid en dagvattenbrunn.", 1],
+    ],
+    comment: "”Gatubrunnar leder regnvatten direkt ut i närmsta vattendrag, sjö eller hav. Föroreningar från biltvätt på gatan renas alltså inte i reningsverk.” (Körkortsboken, upplaga 19, sida 223)"
+  },
+
+  {
+    questionText: "Är U-svängar alltid förbjudna på huvudleder?",
+    options: [
+      ["A. Ja", 0],
+      ["B. Nej", 1],
+    ],
+    comment: "Det finns inget generellt förbud mot U-svängar på huvudleder. Väldigt många vägar är huvudleder, vilket skulle göra att U-svängar ofta var förbjudna. Finns ett förbud markeras det med ett förbudsmärke."
+  },
+
+  {
+    questionText: "Du hyr en bil i januari och det är vinterväglag. Däcken är märkta med M+S. Framdäckens mönsterdjup är 2 mm och bakdäckens är 5 mm. Vilket alternativ är sant?",
+    options: [
+      ["A. Jag får inte köra med bilen, eftersom däckens mönsterdjup är olika.", 0],
+      ["B. Jag får köra med bilen, eftersom däcken är märka med M+S.", 0],
+      ["C. Jag får inte köra med bilen, eftersom framdäckens mönsterdjup inte är tillräckligt.", 1],
+    ],
+    comment: "”Vid vinterväglag under perioden 1 december–31 mars ska mönsterdjupet vara minst 3 mm på däck till personbilar”. (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "När ska ett ägarbyte av en bil anmälas till Transportstyrelsen?",
+    options: [
+      ["A. Inom 1 månad.", 0],
+      ["B. Inom 20 dagar.", 0],
+      ["C. Inom 10 dagar.", 1],
+    ],
+    comment: "”En anmälan om ägarbyte måste komma till oss inom tio dagar från överlåtelsen”. (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Vad innebär det i regel om en person som står vid ett övergångsställe håller en vit käpp snett framåt?",
+    options: [
+      ["A. Att personen avvaktar för att lyssna.", 0],
+      ["B. Att personen tänker gå över vägen.", 0],
+    ],
+    comment: "”Omedelbart innan den synskadade stiger ut på gatan sträcker han käppen snett framåt” (Du och jag i trafiken, upplaga 28, sida 218)."
+  },
+
+  {
+    questionText: "Vad bör föraren på bilden göra så snart som möjligt efter vattensamlingen?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/2243.jpg",
+    options: [
+      ["A. Gasa i tomgångsläge för att rensa bort vatten ur motorn.", 0],
+      ["B. Provbromsa för att få bort fukt från bromsarna.", 1],
+      ["C. Kontrollera så att däcken inte drabbats av vattenplaning.", 0],
+    ],
+    comment: "”Provbromsa alltid efter att ha kört igenom vattensamlingar. […] Vid provbromsning värms bromsarna och fukten torkar.” (Körkortsboken, upplaga 19, sida 131)"
+  },
+
+  {
+    questionText: "Vad är tresekundersregeln?",
+    options: [
+      ["A. Den anger hur länge du får ha bilen på tomgången.", 0],
+      ["B. Den anger när du ska slå på helljuset efter möte i mörker.", 0],
+      ["C. Den hjälper dig att hålla avståndet till framförvarande fordon.", 1],
+    ],
+    comment: "Börja räkna när bilen framför dig är vid ett riktmärke (exempelvis ett vägmärke) och sluta räkna när du själv når riktmärket. Tog det mindre än 3 sekunder är avståndet mellan er för kort."
+  },
+
+  {
     questionText: "",
     imgUrl: "",
     options: [
@@ -1534,6 +2002,55 @@ const Questions = [
     ],
     comment: ""
   },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
 
 
 ];
