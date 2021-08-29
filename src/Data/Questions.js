@@ -1992,6 +1992,685 @@ const Questions = [
   },
 
   {
+    questionText: "Har det vita märket med pilar någonting med de blåa märkena ovanför att göra?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/7165.jpg",
+    options: [
+      ["A. Ja, det anger utsträckningen.", 1],
+      ["B. Nej, det visar endast var utfarter finns.", 0],
+      ["C. Nej, eftersom märket har en avvikande färg.", 0],
+      ["D. Nej, eftersom det finns ett mellanrum ovanför det vita märket.", 0],
+    ],
+    comment: "”Tavlan med dubbelriktade pilar, uppsatt vågrätt eller lodrätt, anger att angivelsen gäller på båda sidor av märket. Tavlan med nedåtriktad pil anger att angivelsen slutar. Tavlan med höger- eller vänsterriktad pil visar att angivelsen gäller åt det håll pilen visar. Används tavlan under märke E19, parkering, har den svarta tecken på vit botten utan bård. Tavlorna kan även användas fristående för att ange avgränsning av uppställningsplatser på ett område, om det vid infarten till området anges att parkering är tillåten.”"
+  },
+
+  {
+    questionText: "Vad innebär understyrning?",
+    options: [
+      ["A. Att framhjulen tappar greppet, vilket leder till att bilen svänger för lite.", 1],
+      ["B. Att bakhjulen tappar greppet, vilket leder till att bilen får bakhjulssladd.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör bil och närmar dig ett övergångsställe. En äldre dam står på trottoaren precis innan övergångsstället. Damen går dock inte över, utan vinkar åt dig att du ska köra. Hur bör du agera?",
+    options: [
+      ["A. Stanna och vänta på att damen ska gå över.", 0],
+      ["B. Se till att ha god ögonkontakt och därefter köra utan att stanna.", 1],
+      ["C. Stanna och signalera åt damen att hon säkert kan gå över och ta den tid hon behöver.", 0],
+    ],
+    comment: "”Det finns inget hinder för dig att passera om den gående tydligt visar sin avsikt att stanna kvar och inte gå över gatan.” (Skriftligt svar från utredare på Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Vad innebär sannolikhetsinlärning?",
+    options: [
+      ["A. Att du följer andra förares beteende.", 0],
+      ["B. Att du gör bedömningar med tidigare erfarenheter som grund.", 1],
+      ["C. Att du endast lär dig saker som du anser är viktiga.", 0],
+    ],
+    comment: "”Att lära sig genom erfarenheten – ’hur brukar det vara’ – kallas sannolikhetsinlärning.” (Du och jag i trafiken, upplaga 28, sida 38)"
+  },
+
+  {
+    questionText: "Är det sant att förare mellan 18–19 år löper lika stor olycksrisk som förare över 75 år?",
+    options: [
+      ["A. Ja", 1],
+      ["B. Nej", 0],
+    ],
+    comment: "”Förare i åldern 75 år och uppåt löper fem till sex gånger större risk att råka ut för en olycka, precis som 18–19-åringarna.” (Körkortsboken, upplaga 19, sida 201)"
+  },
+
+  {
+    questionText: "Vad är sant på gågator?",
+    options: [
+      ["A. Fordonsförare får aldrig köra in.", 0],
+      ["B. Fordonsförare har väjningsplikt mot gående.", 1],
+      ["C. Fordonsförare får aldrig stanna fordonet.", 0]
+    ],
+    comment: "”På en gågata […] gäller följande: 1. Fordon får inte föras med högre hastighet än gångfart. 2. Fordon får inte parkeras på någon annan plats än särskilt anordnade parkeringsplatser. 3. Fordonsförare har väjningsplikt mot gående.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Hur ska du placera dig om du ska svänga vänster från en enkelriktad gata?",
+    options: [
+      ["A. Så nära körbanans högra kant som möjligt.", 0],
+      ["B. Så nära körbanans mitt som möjligt.", 0],
+      ["C. Så nära körbanans vänstra kant som möjligt.", 1],
+    ],
+    comment: "”Vid vänstersväng skall ett fordon föras så nära körbanans mitt som möjligt eller, på körbana med enkelriktad trafik, så nära körbanans vänstra kant som möjligt.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Väglaget är som på fotot. Plötsligt dyker det upp ett hinder 40 meter längre fram, vilket gör att du börjar bromsa kraftigt. Ungefär hur lång blir reaktionssträckan, om din reaktionstid är 1 sekund och du från början kör i 70 km/h?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3692.jpg",
+    options: [
+      ["A. 50 m", 0],
+      ["B. 20 m", 1],
+      ["C. 10 m", 0],
+      ["D. 0 m", 0],
+    ],
+    comment: "Reaktionssträckan: stryk nollan i hastigheten * reaktionstiden * 3 ==> 7 * 1 * 3 = 21 avrunda till 20 meter"
+  },
+
+  {
+    questionText: "Hur bör du agera för att spara bränsle i denna situation?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3679.jpg",
+    options: [
+      ["A. Först lätta på gasen, sedan börja gasa lite hårdare längst ner i svackan och därefter försöka hålla jämnt gaspådrag i uppförsbacken.", 1],
+      ["B. Först lätta på gasen, sedan trycka ner kopplingen och växla ner längst ner i svackan för att sedan börja accelerera när du inte kan rulla längre.", 0],
+      ["C. Hålla samma gaspådrag så länge som möjligt och öka gaspådraget först när det krävs.", 0],
+    ],
+    comment: "”I nedförsbacke kan du släppa gasen om backen är tillräckligt brant. […] Om det kommer en uppförsbacke efter en nerförsbacke kan du utnyttja den högre hastigheten från nerförsbacken, genom att ligga på en hög växel i uppförsbacken. Det spar bränsle. Accelerera inte i uppförsbacken utan håll ett jämnt pedaltryck så spar du mest.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Vad betyder vägmärket?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/H2-1.svg",
+    options: [
+      ["A. Industri.", 0],
+      ["B. Elstolpar nära vägen.", 0],
+      ["C. Fordonsverkstad.", 1],
+      ["D. Radiomast.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör en bil med bra bromsar och nya däck på en torr asfaltsväg. Hur många meter är stoppsträckan, om din hastighet är 50 km/h och du reagerar på 1,5 sekunder?",
+    options: [
+      ["A. 50 meter", 0],
+      ["B. 30 meter", 1],
+      ["C. 10 meter", 0],
+      ["D. 5 meter", 0],
+    ],
+    comment: "Reaktionssträckan: stryk nollan i hastigheten * reaktionstiden * 3 ==> 5 * 1,5 * 3 = 22,5 (avrunda till 23 meter). Bromssträckan: stryk nollan i hastigheten * stryk nollan i hastigheten * 0,4 ==> 5 * 5 * 0,4 = 10 meter. Stoppsträckan: reaktionssträckan + bromssträckan ==> 23 + 10 = 33 (avrunda till 30 meter)"
+  },
+
+  {
+    questionText: "Är det sant att en registreringsskylt alltid består av tre bokstäver och tre siffror?",
+    options: [
+      ["A. Ja", 0],
+      ["B. Nej", 1],
+    ],
+    comment: "”Skylten ska ha minst två och högst sju tecken, mellanrum räknas som tecken. Teckenkombinationen kan bestå av siffror eller bokstäver – eller av både siffror och bokstäver. Du får använda dig av alla bokstäver.” (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Ungefär hur stor del av koldioxidutsläppen i Sverige står vägtrafiken för?",
+    options: [
+      ["A. 30 %", 1],
+      ["B. 60 %", 0],
+      ["C. 80 %", 0],
+    ],
+    comment: "”Av de totala koldioxidutsläppen i Sverige kommer cirka 30 procent från vägtransportsektorn.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Gäller speciella regler när du kommer från en enskild väg och ska köra ut på en allmän väg?",
+    options: [
+      ["A. Nej, dock bör jag vara extra försiktig innan jag kör ut på den allmänna vägen.", 1],
+      ["B. Ja, högerregeln gäller alltid.", 0],
+      ["C. Ja, jag har alltid väjningsplikt mot all trafik på den allmänna vägen.", 0],
+    ],
+    comment: "En korsning mellan en enskild väg och en allmän väg betraktas enligt lagen som en vanlig korsning."
+  },
+
+  {
+    questionText: "Varför finns den gula förbudslinjen målad på denna plats?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4336.jpg",
+    options: [
+      ["A. Därför att det är förbjudet att stanna för nära bron.", 0],
+      ["B. Därför att bilar ska kunna svänga in och ut från vägen till höger på fotot även under broöppning.", 1],
+      ["C. Därför att det alltid är stopp- och parkeringsförbud på landsvägar.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från och ser omkörningen som pågår. Hur bör du agera?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3985.jpg",
+    options: [
+      ["A. Köra som vanligt och ignorera omkörningen.", 0],
+      ["B. Köra i mitten av ditt körfält och tuta alternativt blinka med helljuset.", 0],
+      ["C. Hålla till höger i ditt körfält och vara handlingsberedd.", 1],
+      ["D. Sänka farten och köra ut på vägrenen.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du ökar din hastighet så att den blir tre gånger större i en kurva. Hur mycket ökar samtidigt kraften som verkar i sidled?",
+    options: [
+      ["A. Den förändras inte.", 0],
+      ["B. Den blir 3 gånger större.", 0],
+      ["C. Den blir 6 gånger större.", 0],
+      ["D. Den blir 9 gånger större.", 1],
+    ],
+    comment: "Kraften som verkar i sidled är centripetalkraften. Den ökar kvadratiskt (upphöjt till 2) i förhållande till hastigheten."
+  },
+
+  {
+    questionText: "Du kör fordonet som fotot är taget från. Vad är sant angående cyklisten?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3353.jpg",
+    options: [
+      ["A. Jag får inte köra om cyklisten i samband med korsningen till vänster.", 0],
+      ["B. Jag får inte köra om cyklisten så länge det förekommer mötande trafik.", 0],
+      ["C. Jag får inte köra om cyklisten så länge det finns en heldragen linje på min sida.", 0],
+      ["D. Jag får köra om cyklisten direkt om jag kan göra det på ett säkert sätt utan att lämna mitt körfält.", 1],
+    ],
+    comment: "Cyklister får köras om i samband med korsningar: ”Omkörning får inte ske strax före eller i en vägkorsning […] Tvåhjuliga fordon utan sidvagn får dock köras om.” (Trafikförordningen)."
+  },
+
+  {
+    questionText: "Vad kallas den vikt då bilen har en förare i sig men inte är lastad?",
+    options: [
+      ["A. Totalvikt", 0],
+      ["B. Tjänstevikt", 1],
+      ["C. Nettovikt", 0],
+      ["D. Maxvikt", 0],
+    ],
+    comment: "Tjänstevikt: ”Den sammanlagda vikten av fordonet i normalt, fullt driftfärdigt skick med det tyngsta karosseri som hör till fordonet, verktyg och reservhjul som hör till fordonet, bränsle, smörjolja och vatten, samt föraren.” (Lagen om vägtrafikdefinitioner)"
+  },
+
+  {
+    questionText: "Du närmar dig korsningen och ska svänga höger. Hur bör du agera när du svänger för att undvika hjulspinn?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/3587-69885.jpg",
+    options: [
+      ["A. Stanna innan svängen, lägga i 1:an och sedan köra.", 0],
+      ["B. Köra på så hög växel som möjligt, vara lätt på gasen och undvika att stanna.", 1],
+      ["C. Gasa kraftigt när du svänger.", 0],
+      ["D. Släppa kopplingen extra snabbt i samband med växlingen.", 0],
+    ],
+    comment: "Du bör dock försöka att köra på 2:an eller kanske 3:an och anpassa farten så att du inte behöver stanna, eftersom den effektivaste metoden för att undvika hjulspinn är att köra mjukt utan stanna och accelerera."
+  },
+
+  {
+    questionText: "Vad är sant angående det vita blinkande ljuset som kan finnas i samband med järnvägskorsningar?",
+    options: [
+      ["A. Det vita ljuset talar om att det inte kan komma något tåg.", 0],
+      ["B. Det vita ljuset används för att göra korsningen lättare att upptäcka.", 1],
+      ["C. Det vita ljuset talar om att ett tåg närmar sig.", 0],
+    ],
+    comment: "”Under de röda ljusöppningarna kan det finnas en cirkulär ljusöppning, från vilken det kan avges blinkande vitt ljus för att göra korsningen lättare att upptäcka.” (Vägmärkesförordning)"
+  },
+
+  {
+    questionText: "Hur bör föraren i personbilen precis bakom lastbilen agera?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/4558.jpg",
+    options: [
+      ["A. Skärpa handlingsberedskapen.", 1],
+      ["B. Skärpa handlingsberedskapen.", 0],
+      ["C. Skärpa handlingsberedskapen.", 0],
+    ],
+    comment: "Lastbilen håller på att svänga av till höger (kan ses på blinkersen och att lastbilen är halvvägs inne på avfarten). Den bakomvarande bilen ligger för nära, men inte så nära att det är befogat att börja bromsa. ”Handlingsberedskapen kan t ex innebära att du lättar på gasen, flyttar foten till bromspedalen och är redo att bromsa. På så sätt förkortar du din reaktionstid och kan lättare göra rätt manöver för att avvärja en fara.” (Du och jag i trafiken, upplaga 28, sida 169)"
+  },
+
+  {
+    questionText: "Vilket alternativ är sant angående halt väglag på sommaren?",
+    options: [
+      ["A. En mycket varm dag kan tjära tränga upp till asfaltsytan och göra vägen hal.", 1],
+      ["B. När solen skyms av moln är det större risk för halka än när solen lyser starkt.", 0],
+      ["C. På sommaren förekommer aldrig halt väglag.", 0],
+    ],
+    comment: "”Sommaren […] Riktigt varma soliga dagar kan tjära i asfalten tränga upp till ytan och göra den hal.” (Körkortsboken, upplaga 19, sida 168)"
+  },
+
+  {
+    questionText: "Du ska passera en järnvägskorsning som saknar bommar och signaler. Sikten är kraftigt skymd av träd och berg längs spåren. Hur bör du agera?",
+    options: [
+      ["A. Sänka farten, växla ner och krypköra sakta över korsningen.", 0],
+      ["B. Stanna bilen framför korsningen, hissa ner rutan och lyssna efter tåg för att sedan köra över snabbt om inget tåg hörs.", 1],
+      ["C. Undvika att sänka farten innan korsningen för att minska tiden som du befinner dig på spåret.", 0],
+      ["D. Använda bilens startmotor för att ta dig över.", 0],
+    ],
+    comment: "”Vid obevakade järnvägskorsningar med skymd eller nedsatt sikt gör du klokt i att veva ned rutan och lyssna efter tåg, innan du passerar korsningen.” (Du och jag i trafiken, upplaga 28, sida 186)"
+  },
+
+  {
+    questionText: "Vad anses vara normal gånghastighet för en person utan funktionshinder?",
+    options: [
+      ["A. Cirka 1 km/h", 0],
+      ["B. Cirka 3 km/h", 0],
+      ["C. Cirka 5 km/h", 1],
+      ["D. Cirka 12 km/h", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör bilen som fotot är taget från. Hur bör du agera?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/5282.jpg",
+    options: [
+      ["A. Stanna för att släppa förbi mötande fordon, eftersom lastbilen till vänster på fotot blockerar körfältet avsett för mötande fordon.", 0],
+      ["B. Köra ut på vägrenen och följa efter den röda bilen framför dig, eftersom det underlättar för mötande fordon.", 1],
+      ["C. Köra mittemellan körfältet och vägrenen, eftersom det underlättar för mötande fordon samtidigt som det är trafiksäkert.", 0],
+      ["D. Hålla dig i körfältet som är avsett för trafik i din riktning, eftersom vägrenen inte bör användas i denna situation.", 0],
+    ],
+    comment: "Situationen är ett typiskt exempel på när vägrenen bör användas för att underlätta för alla inblandade."
+  },
+
+  {
+    questionText: "Vad utgör grunden för trafiksäkerhetsarbetet i Sverige?",
+    options: [
+      ["A. Statens väg- och transportforskningsinstitut (VTI)", 0],
+      ["B. Trafikförordningen", 0],
+      ["C. Nollvisionen", 1],
+    ],
+    comment: "”Nollvisionen är grunden för trafiksäkerhetsarbetet i Sverige. Det är fastställt genom ett beslut i riksdagen.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Du befinner dig på en olycksplats och ser en person som drabbats av chock (cirkulationssvikt). Ska du ge personen vatten att dricka?",
+    options: [
+      ["A. Ja, det är mycket viktigt att en chockad person får i sig vätska, även om personen själv inte är törstig.", 0],
+      ["B. Endast om den chockade personen ber om något att dricka.", 0],
+      ["C. Nej, eftersom det kan göra mer skada än nytta.", 1],
+    ],
+    comment: "”Ge aldrig mat eller dryck. Risken är stor att vätskan hamnar i luftvägarna om personen kräks eller blir medvetslös.” (Vårdguiden)"
+  },
+
+  {
+    questionText: "Är det tillåtet att köra om en cyklist precis innan en järnvägskorsning som saknar bommar?",
+    options: [
+      ["A. Ja, om det kan göras på ett säkert sätt.", 1],
+      ["B. Nej, det är aldrig tillåtet.", 0],
+    ],
+    comment: "”Omkörning får inte heller ske strax före eller i en plankorsning […] Tvåhjuliga fordon utan sidvagn får dock köras om.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Var fylls spolarvätska på?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/toyotamotor.jpg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 1],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: "Spolarvätskan är i princip alltid blå och finns i den största behållaren. Därför kan du med stor säkerhet anta att B är rätt."
+  },
+
+  {
+    questionText: "Vad stämmer för vägmarkeringarna?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/5163.jpg",
+    options: [
+      ["A. Högst 30 km/h är endast en rekommendation.", 0],
+      ["B. Högst 30 km/h gäller lika starkt som en vanlig 30-skylt.", 1],
+      ["C. Högst 30 km/h gäller endast vardagar utom dag före sön- och helgdag.", 0],
+    ],
+    comment: "Vägmarkeringarna i sig säger inget om att de bara gäller vissa tider. Ser du bara vägmarkeringar ska du utgå från att de gäller alla dagar och tider."
+  },
+
+  {
+    questionText: "Vad är sant om bränsleförbrukningen per kilometer för en kallstartad bensindriven bil utrustad med katalysator?",
+    options: [
+      ["A. Den ökar konstant.", 0],
+      ["B. Den är högre vid korta än vid långa körsträckor.", 1],
+      ["C. Den är högre vid långa än vid korta körsträckor.", 0],
+      ["D. Den är konstant oavsett körsträckans längd.", 0],
+    ],
+    comment: "”De korta bilresorna är smutsigast, räknat per km. […] Bensinförbrukning och koldioxidutsläpp är ca 35 % högre de första 5 km eftersom en kall motor kräver ”fetare” bränsleblandning. Den första halvmilen förbrukar medelbilen hela 1,4 liter/mil.” (Naturskyddsföreningen)"
+  },
+
+  {
+    questionText: "Du kör bil på grusvägen och ser detta märke. Hur ska du tolka det?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/2029.jpg",
+    options: [
+      ["A. Väjningsplikt om lampan är tänd.", 0],
+      ["B. Varning för fara om lampan blinkar.", 0],
+      ["C. Vägmärket gäller inte mig som bilförare.", 1],
+    ],
+    comment: "Märket gäller endast tågförare (se järnvägen till vänster). Det finns inget vägmärke som ser ut som det på bilden."
+  },
+
+  {
+    questionText: "Hur fort får en moped klass I (EU-moped) max köra?",
+    imgUrl: "",
+    options: [
+      ["A. Max 25 km/h", 0],
+      ["B. Max 30 km/h", 0],
+      ["C. Max 45 km/h", 1],
+    ],
+    comment: "”Moped klass I är ett motorfordon på två, tre eller fyra hjul och som är konstruerat för en hastighet av högst 45 km/timmen”. (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Är det alltid förbjudet att köra om vid ett backkrön?",
+    options: [
+      ["A. Ja", 0],
+      ["B. Nej", 1],
+    ],
+    comment: "”Där sikten är skymd vid ett backkrön eller i en kurva får omkörning ske endast om körbanan i färdriktningen har minst två körfält i vilka mötande trafik inte får förekomma eller i andra fall där omkörningen kan ske utan att ett körfält avsett för fordon i mötande färdriktning behöver tas i anspråk. Tvåhjuliga fordon utan sidvagn får dock köras om.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "När får ett barn sitta som en vuxen på en plats utan krockkudde?",
+    options: [
+      ["A. När barnet är minst 135 cm.", 1],
+      ["B. När barnet är minst 140 cm.", 0],
+      ["C. När barnet är minst 150 cm.", 0],
+      ["D. Aldrig.", 0],
+    ],
+    comment: "”Alla barn som är kortare än 135 centimeter ska använda en särskild skyddsanordning i bilen, det vill säga babyskydd, bilbarnstol, bältesstol eller bälteskudde.” (Transportstyrelsen)"
+  },
+
+  {
+    questionText: "Får EU-mopeder (klass I) köra på motorvägar?",
+    options: [
+      ["A. Ja, alltid.", 0],
+      ["B. Ja, om föraren har ett förarbevis.", 0],
+      ["C. Ja, om föraren är över 18 år.", 0],
+      ["D. Nej, aldrig.", 1],
+    ],
+    comment: "”Mopeder klass I [EU-mopeder] får […] inte framföras på en motorväg.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vatten och glykol",
+    options: [
+      ["A. Vatten och glykol", 1],
+      ["B. Destillerat vatten", 0],
+      ["C. Destillerat vatten och olja", 0],
+      ["D. Vatten och hydraulikvätska", 0],
+    ],
+    comment: "”Kylvätskan består av glykol och vatten”. (Körkortsboken, upplaga 19, sida 140). Glykolen skyddar mot rost och förhindrar att kylarvattnet fryser till is på vintern."
+  },
+
+  {
+    questionText: "Du har köpt en 2 år gammal bil. När måste du registreringsbesiktiga den?",
+    options: [
+      ["A. Direkt när du köper den.", 0],
+      ["B. 1 år efter köpet (då bilen är 3 år gammal).", 0],
+      ["C. 1 år efter köpet (då bilen är 3 år gammal).", 0],
+      ["D. Först när du gör några större förändringar av bilen.", 1],
+    ],
+    comment: "Registreringsbesiktning genomförs bara om fordonet har ändrats så mycket att dess säkerhets- och köregenskaper har eller kan ha påverkats. Den vanliga besiktningen som alla bilar ska göra kallas kontrollbesiktning."
+  },
+
+  {
+    questionText: "Vad är sant angående trötthetsolyckor sent på natten?",
+    options: [
+      ["A. En man mellan 45–54 år löper störst risk att råka ut för en sådan olycka.", 0],
+      ["B. En kvinna mellan 45–54 år löper störst risk att råka ut för en sådan olycka.", 0],
+      ["C. En man mellan 18–24 år löper störst risk att råka ut för en sådan olycka.", 1],
+      ["D. Det finns ingen skillnad i olycksrisk mellan olika åldrar och kön.", 0],
+    ],
+    comment: "”Genomgående finner man att män råkar ut för mer trötthetsolyckor än kvinnor men framför allt att yngre drabbas mycket mer av trötthetsolyckor på sennatten än äldre”. (Karolinska institutet)"
+  },
+
+  {
+    questionText: "Hur bör du placera bilen när du kör på en trafiktom landsväg i mörker?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/bilar-29.svg",
+    options: [
+      ["A. Så nära vänsterkanten av körfältet som möjligt (A).", 1],
+      ["B. Så nära mitten av körfältet som möjligt (B).", 0],
+      ["C. Så nära högerkanten av körfältet som möjligt (C).", 0],
+    ],
+    comment: "I mörker är det bättre att köra närmare mitten av vägen (alltså till vänster i körfältet), eftersom det är svårare att se vad som händer längs kanterna, exempelvis om något djur hoppar fram."
+  },
+
+  {
+    questionText: "Vilket påstående är sant om en korrekt använd motorvärmare?",
+    options: [
+      ["A. Den är bra ur miljösynpunkt eftersom utsläppen av farliga ämnen minskar.", 1],
+      ["B. Den är neutral ur miljösynpunkt eftersom energin som krävs för att driva motorvärmaren tar ut vinsterna som värmen ger.", 0],
+      ["C. Den är dålig ur miljösynpunkt eftersom den endast värmer upp passagerarna.", 0],
+    ],
+    comment: "”Varje gång du kallstartar bilen ökar både bränsleförbrukningen och avgasutsläppen. Med motorvärmare kan du spara upp till 1 dl bränsle varje gång du kör. Utsläppen under en resa på 6 km minskar med 50–80 procent om du har använt motorvärmare.” (Trafikverket)"
+  },
+
+  {
+    questionText: "Är det tillåtet för fordon som färdas i körfältet som fotot är taget från att vika över i mötande körfält vid A för att påbörja en omkörning av en bil?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/7048b.jpg",
+    options: [
+      ["A. Ja, eftersom linjen inte är heldragen.", 0],
+      ["B. Nej, eftersom sikten är skymd.", 1],
+      ["C. Ja, men det är inte rekommenderat eftersom sikten är skymd.", 0],
+    ],
+    comment: "”Där sikten är skymd vid ett backkrön eller i en kurva får omkörning ske endast om körbanan i färdriktningen har minst två körfält i vilka mötande trafik inte får förekomma eller i andra fall där omkörningen kan ske utan att ett körfält avsett för fordon i mötande färdriktning behöver tas i anspråk.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vad innebär det att situationsanpassa din hastighet på ett trafiksäkert sätt?",
+    options: [
+      ["A. Att köra cirka 5 km/h långsammare än vad vägmärkena anger.", 0],
+      ["B. Att alltid följa trafikrytmen.", 0],
+      ["C. Att själv bedöma vad som är lämplig hastighet utan att överskrida vägens hastighetsbegränsning.", 1],
+      ["D. Att förlita dig på rapporter om väglaget från exempelvis Trafikverket och SMHI när du ska välja hastighet.", 0],
+    ],
+  },
+
+  {
+    questionText: "Du kör på en väg där den högsta tillåtna hastigheten är 50 km/h och blir på grund av ett tekniskt fel tvungen att parkera din bil på körbanan. Måste du sätta ut en varningstriangel?",
+    options: [
+      ["A. Ja, alltid, eftersom bilen har blivit stående på körbanan på grund av motorfel eller liknande.", 0],
+      ["B. Ja, alltid, eftersom den högsta tillåtna hastigheten är 50 km/h.", 0],
+      ["C. Endast om väderleksförhållandena eller andra omständigheter gör det svårt för andra förare att se fordonet i tid.", 1],
+    ],
+    comment: "En ”varningstriangel skall sätta ut […] där den högsta tillåtna hastigheten är högre än 50 kilometer i timmen och där fordonet inte får stannas eller parkeras […] En varningstriangel ska sättas ut också när fordonet av något annat skäl har parkerats på en körbana och väderleksförhållandena eller andra omständigheter gör det svårt för andra förare att se fordonet i tid.” (Trafikförordningen)"
+  },
+
+  {
+    questionText: "Vilket alternativ anger något som bidrar till att försura och övergöda vatten och som samtidigt kan påverka vår andning?",
+    options: [
+      ["A. Kolmonoxid (CO)", 0],
+      ["B. Koldioxid (CO2)", 0],
+      ["C. Marknära ozon", 0],
+      ["D. Kväveoxid (NOx)", 1],
+    ],
+    comment: "Kväveoxid ”försurar mark och vatten. Bidrar till övergödning av sjöar […] påverkan av […] våra luftvägar”. (Körkortsboken, upplaga 19, sida 228)"
+  },
+
+  {
+    questionText: "Vid vilken ålder kan ett gående barn antas klara sig någorlunda säkert i en trafikerad miljö?",
+    options: [
+      ["A. Från cirka 1–3 år.", 0],
+      ["B. Från cirka 5–7 år.", 0],
+      ["C. Från cirka 9–12 år.", 1],
+      ["D. Från cirka 15–18 år.", 0],
+    ],
+    comment: "”Ett gående barn kan inte klara sig något så när säkert i trafiken förrän i 9–12-årsåldern.” (Du och jag i trafiken, upplaga 28, sida 215)"
+  },
+
+  {
+    questionText: "Vilket tecken betyder kör in till vägkanten och stanna framför polisfordonet?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/p8-p9-p10-p11.svg",
+    options: [
+      ["A. ", 0],
+      ["B. ", 1],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: "”Tecknet anger att föraren av det fordon som befinner sig framför polisfordonet skall köra in till vägkanten och stanna. Tecknet ges med växelvis blinkande blått och rött ljus.”"
+  },
+
+  {
+    questionText: "Vad innebär dubbelparkering?",
+    options: [
+      ["A. Det är en parkeringsplats med två parkeringsrutor.", 0],
+      ["B. Det är en extra bred parkeringsplats för större fordon.", 0],
+      ["C. Då ett fordon parkerar bredvid ett annat fordon som står längs körbanan.", 1],
+      ["D. Då ett fordon låser in ett annat fordon genom att parkera bakom eller framför.", 0],
+    ],
+    comment: "Förbjudet att parkera: ”På körbana bredvid annat fordon som stannat längs körbanan (s k dubbelparkering).” (Du och jag i trafiken, upplaga 28, sida 236)"
+  },
+
+  {
+    questionText: "Ungefär hur mycket koldioxid släpper en genomsnittlig bil ut per år i Sverige?",
+    options: [
+      ["A. 0,5 ton", 0],
+      ["B. 3 ton", 1],
+      ["C. 12 ton", 0],
+      ["D. 75", 0],
+    ],
+    comment: "”En normalbilist släpper ut omkring tre ton koldioxid per år.” (Sveriges Radio)"
+  },
+
+  {
+    questionText: "Du har stannat för att släppa förbi ett tåg vid en bevakad järnvägskorsning med bommar. När får du köra igen?",
+    options: [
+      ["A. Direkt efter att tåget har passerat.", 0],
+      ["B. När bommarna är helt uppfällda.", 0],
+      ["C. När den röda signalen slutar lysa.", 1],
+    ],
+    comment: "Bommarna fälls alltid upp först. När de är helt uppfällda blinkar de röda stopplamporna oftast ett litet tag till. Det är först när det inte blinkar rött längre som du får köra."
+  },
+
+  {
+    questionText: "Hur lång tid innan avfärd bör du ha motorvärmaren på om det är -4 °C ute?",
+    options: [
+      ["A. 30 minuter", 0],
+      ["B. 1 timme", 1],
+      ["C. 3 timmar", 0],
+      ["D. 6 timmar", 0],
+    ],
+    comment: "Ha motorvärmaren på ”en timme om temperaturen är upp till 0°”. (Trafikverket)"
+  },
+
+  {
+    questionText: "Vad innebär vägmärkena till höger?",
+    imgUrl: "https://cdn.korkortonline.se/images/teoritest/6454.jpg",
+    options: [
+      ["A. Fordon som är högre än 2,8 meter ska svänga till höger.", 0],
+      ["B. Fordon som är högre än 2,8 meter ska inte svänga till höger.", 1],
+    ],
+    comment: "”Tavlan anger riktning till angivelsen på märket. Tavlan är anpassad till förhållandena på platsen.”"
+  },
+
+  {
+    questionText: "Vad betyder vägmärket?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/T10-1.svg",
+    options: [
+      ["A. Nedsatt syn.", 0],
+      ["B. Nedsatt hörsel.", 1],
+      ["C. Lastbil med släp vars totalvikt överstiger 10 ton.", 0],
+    ],
+  },
+
+  {
+    questionText: "Vilken åldersgrupp har bäst reaktionsförmåga i trafiken?",
+    options: [
+      ["A. Oerfarna förare mellan 18–29 år.", 0],
+      ["B. Erfarna förare mellan 30–44 år.", 0],
+      ["C. Erfarna förare mellan 45–54 år.", 1],
+      ["D. Erfarna förare mellan 55–65 år.", 0],
+    ],
+    comment: "”Yngre förare reagerar avsevärt långsammare än erfarna förare. Åldersgruppen med bäst reaktionsförmåga är erfarna förare mellan 45–54 år. […] Förklaringen är troligen, att den erfarne föraren oftare är handlingsberedd.” (Körkortsboken, upplaga 19, sida 199)"
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
+    questionText: "",
+    imgUrl: "",
+    options: [
+      ["A. ", 0],
+      ["B. ", 0],
+      ["C. ", 0],
+      ["D. ", 0],
+    ],
+    comment: ""
+  },
+
+  {
     questionText: "",
     imgUrl: "",
     options: [
