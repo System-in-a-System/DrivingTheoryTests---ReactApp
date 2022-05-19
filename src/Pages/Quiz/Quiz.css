@@ -33,12 +33,12 @@
 }
 
 .singleQuestion > * {
-    margin: 9px;
+    margin: 10px;
     padding: 9px;
 }
 
 .singleQuestion > * > * {
-    margin: 7px;
+    margin: 10px;
     padding: 7px;
 }
 
