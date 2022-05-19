@@ -2575,75 +2575,65 @@ const Questions = [
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Du kör i 50 km/h. Hur många meter rullar bilen på 1 sekund?",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. Cirka 5 meter.", 0],
+      ["B. Cirka 15 meter.", 1],
+      ["C. Cirka 30 meter.", 0],
+      ["D. Cirka 50 meter.", 0],
     ],
-    comment: ""
+    comment: "Stryk nollan och gör om km/h till m/s genom att multiplicera med 3"
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Du vill svänga höger i korsningen. Får du byta till höger körfält i korsa körfält anvisat för ett visst eller vissa slag av fordon ",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. Ja, förutsatt att jag inte korsar någon heldragen linje.", 1],
+      ["B. Nej, eftersom jag inte får korsa körfältet märkt med BUSS.", 0],
     ],
-    comment: ""
+    comment: "”Om ett körfält är anvisat för ett visst eller vissa slag av fordon får andra fordon föras i körfältet endast för att korsa det.” (Trafikförordningen)"
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Är det tillåtet att påbörja en omkörning där detta vägmärke sitter?",
+    imgUrl: "https://cdn.korkortonline.se/images/vagmarken/A29-1.svg",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. Ja, om det kan göras säkert.", 1],
+      ["B. Nej, eftersom det är i samband med en korsning.", 0],
     ],
-    comment: ""
+    comment: "Omkörning får inte ske strax före eller i en vägkorsning, utom när det framgår av vägmärken eller något annat förhållande att förarna på den korsande vägen har väjningsplikt eller stopplikt. (Trafikförordningen)"
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "När är det säkert för ett barn att sitta som en vuxen på en plats med krockkudde?",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. När barnet är minst 135 cm.", 0],
+      ["B. När barnet är minst 140 cm.", 1],
+      ["C. När barnet är minst 145 cm.", 0],
+      ["D. När barnet är minst 150 cm.", 0],
     ],
-    comment: ""
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Hur mycket får lasten maximalt skjuta ut i sidled om du vill köra på en allmän väg?",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. 10 cm", 0],
+      ["B. 20 cm", 1],
+      ["C. 25 cm", 0],
+      ["D. 30 cm", 0],
     ],
-    comment: ""
+    comment: "Om ett motordrivet fordon eller ett därtill kopplat fordon lastas så att lasten på någondera sidan skjuter ut mer än 20 centimeter utanför fordonet […] får fordonet eller därtill kopplat fordon föras endast på enskild väg."
   },
 
   {
-    questionText: "",
-    imgUrl: "",
+    questionText: "Hur stort måste avståndet mellan ditt fordon och den heldragna linjen vara för att du ska få stanna här?",
     options: [
-      ["A. ", 0],
-      ["B. ", 0],
-      ["C. ", 0],
-      ["D. ", 0],
+      ["A. 0.5 meter", 0],
+      ["B. 1 meter", 0],
+      ["C. 2 meter", 0],
+      ["D. 3 meter", 1],
     ],
-    comment: ""
+    comment: "Ett fordon får inte stannas eller parkeras […] längs en heldragen linje som anger gräns mellan körfält, om avståndet mellan fordonet och linjen är mindre än tre meter, såvida inte en streckad linje löper mellan fordonet och den heldragna linjen"
   },
 
   {
